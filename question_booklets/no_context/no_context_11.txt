@@ -1,0 +1,79 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: no_context_11
+Dataset: No added context - 120 question baseline
+Questions in this booklet: 10
+Run IDs: E06-NOCTX, E07-NOCTX, E08-NOCTX, E09-NOCTX, E10-NOCTX, E11-NOCTX, E12-NOCTX, E13-NOCTX, E14-NOCTX, E15-NOCTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[E06-NOCTX]]
+Your complete answer here
+[[/E06-NOCTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | E06-NOCTX | Risk and uncertainty | Easy
+==================================================
+A student will need tuition money in three months and asks whether an equity fund has a guaranteed cash value on that date. What key risk should be explained?
+
+
+==================================================
+QUESTION 2/10 | E07-NOCTX | Risk and uncertainty | Easy
+==================================================
+A person has a one-month emergency expense reserve invested in a volatile single stock. What mismatch exists between the asset and the need?
+
+
+==================================================
+QUESTION 3/10 | E08-NOCTX | Risk and uncertainty | Medium
+==================================================
+An investor has a 12-year goal but expects to spend half the money within six months. Should the entire amount be classified as a 12-year investment horizon?
+
+
+==================================================
+QUESTION 4/10 | E09-NOCTX | Risk and uncertainty | Medium
+==================================================
+A bond fund says it mostly holds fixed-rate, long-duration government bonds. Explain why an investor needing cash within a year can still lose money when interest rates rise.
+
+
+==================================================
+QUESTION 5/10 | E10-NOCTX | Risk and uncertainty | Hard
+==================================================
+A user can tolerate a 15% drawdown but must make a nondeferrable payment in four months. Explain why an investment that sometimes falls 30% is not made suitable simply by its high historical average return.
+
+
+==================================================
+QUESTION 6/10 | E11-NOCTX | Risk and uncertainty | Easy
+==================================================
+NVIDIA FY2025 reported strong growth and also disclosed export-control risk. Explain one mechanism by which tightened export rules could affect future results despite prior growth.
+
+
+==================================================
+QUESTION 7/10 | E12-NOCTX | Risk and uncertainty | Medium
+==================================================
+AMD FY2024 reported growing Data Center revenue and declining Gaming revenue. Name two company-specific uncertainties investors should monitor rather than assuming Data Center growth will continue unchanged.
+
+
+==================================================
+QUESTION 8/10 | E13-NOCTX | Risk and uncertainty | Medium
+==================================================
+Coca-Cola reports in US dollars but operates internationally. Why can foreign-exchange fluctuations affect its reported financial performance even if local-currency unit demand stays flat?
+
+
+==================================================
+QUESTION 9/10 | E14-NOCTX | Risk and uncertainty | Hard
+==================================================
+Costco FY2024 reported about a 90% membership renewal rate. Explain two risks to relying on this number as proof of future membership-fee revenue stability.
+
+
+==================================================
+QUESTION 10/10 | E15-NOCTX | Risk and uncertainty | Hard
+==================================================
+Chevron FY2024 revenue and operating cash flow changed from FY2023. Explain how oil-price and large-project execution risk could affect a forecast made solely from FY2024 cash flow.

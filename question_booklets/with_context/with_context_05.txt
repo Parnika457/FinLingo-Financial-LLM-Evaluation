@@ -1,0 +1,311 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: with_context_05
+Dataset: Context-provided - 80 additional cases
+Questions in this booklet: 10
+Run IDs: D01-CTX, D02-CTX, D03-CTX, D04-CTX, D05-CTX, D06-CTX, D07-CTX, D08-CTX, D09-CTX, D10-CTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[D01-CTX]]
+Your complete answer here
+[[/D01-CTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | D01-CTX | Company analysis | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D01
+AAPL • Apple Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-28), FY2023 comparative
+SEC filed: 2024-11-01; accession 0000320193-24-000123
+Relevant section: Consolidated Statements of Operations; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm
+
+MSFT • Microsoft Corporation • FY2024 Annual Report / Form 10-K
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-07-30; accession 0000950170-24-087843
+Relevant section: Financial Statements; Segment Results; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AAPL | FY2024 operating income: 123216
+AAPL | FY2024 revenue: 391035
+MSFT | FY2024 operating income: 109433
+MSFT | FY2024 revenue: 245122
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Compare FY2024 operating profit margins for Apple (operating income $123,216m, sales $391,035m) and Microsoft (operating income $109,433m, revenue $245,122m). Which is higher?
+
+
+==================================================
+QUESTION 2/10 | D02-CTX | Company analysis | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D02
+KO • The Coca-Cola Company • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-31), FY2023 comparative
+SEC filed: 2025-02-20; accession 0000021344-25-000011
+Relevant section: Statements of Income; Balance Sheets; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm
+
+PG • The Procter & Gamble Company • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-08-05; accession 0000080424-24-000083
+Relevant section: Statements of Earnings; Cash Flows; MD&A; Segment Disclosures
+Source: https://www.sec.gov/Archives/edgar/data/80424/000008042424000083/pg-20240630.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+KO | FY2024 operating income: 9992
+KO | FY2024 revenue: 47061
+PG | FY2024 operating income: 18545
+PG | FY2024 revenue: 84039
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Among Coca-Cola FY2024 and P&G FY2024, which had the higher operating margin? Use Coca-Cola operating income $9,992m/revenue $47,061m and P&G operating income $18,545m/revenue $84,039m.
+
+
+==================================================
+QUESTION 3/10 | D03-CTX | Company analysis | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D03
+NVDA • NVIDIA Corporation • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-26), FY2024 comparative
+SEC filed: 2025-02-26; accession 0001045810-25-000023
+Relevant section: Consolidated Statements of Income; Cash Flows; Item 1A; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm
+
+AMD • Advanced Micro Devices, Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-28), FY2023 comparative
+SEC filed: 2025-02-05; accession 0000002488-25-000012
+Relevant section: Consolidated Financial Statements; Segment Note; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+NVDA | FY2025 gross profit: 97858
+NVDA | FY2025 revenue: 130497
+AMD | FY2024 gross profit: 12725
+AMD | FY2024 revenue: 25785
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: NVIDIA FY2025 gross profit/revenue were $97,858m/$130,497m, while AMD FY2024 were $12,725m/$25,785m. Compare gross margins, then explain why that is not a complete business-quality ranking.
+
+
+==================================================
+QUESTION 4/10 | D04-CTX | Company analysis | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D04
+COST • Costco Wholesale Corporation • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-01), FY2023 comparative (53 weeks)
+SEC filed: 2024-10-09; accession 0000909832-24-000049
+Relevant section: Statements of Income; Cash Flows; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm
+
+WMT • Walmart Inc. • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-31), FY2024 comparative
+SEC filed: 2025-03-14; accession 0000104169-25-000021
+Relevant section: Statements of Income; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+COST | FY2024 net income: 7367
+COST | FY2024 total revenue: 254453
+WMT | FY2025 net income attributable to parent: 19436
+WMT | FY2025 total revenue: 680985
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Costco FY2024 net income and total revenue were $7,367m and $254,453m; Walmart FY2025 attributable net income and total revenue were $19,436m and $680,985m. Compare their approximate net margins and state one comparability caution.
+
+
+==================================================
+QUESTION 5/10 | D05-CTX | Company analysis | Hard
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D05
+AAPL • Apple Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-28), FY2023 comparative
+SEC filed: 2024-11-01; accession 0000320193-24-000123
+Relevant section: Consolidated Statements of Operations; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm
+
+MSFT • Microsoft Corporation • FY2024 Annual Report / Form 10-K
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-07-30; accession 0000950170-24-087843
+Relevant section: Financial Statements; Segment Results; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AAPL | FY2024 operating income: 123216
+AAPL | FY2023 operating income: 114301
+MSFT | FY2024 operating income: 109433
+MSFT | FY2023 operating income: 88523
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Apple and Microsoft both improved operating income between FY2023 and FY2024. Which had stronger operating-income percentage growth, and is that enough to decide which is the better stock?
+
+
+==================================================
+QUESTION 6/10 | D06-CTX | Company analysis | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D06
+AMD • Advanced Micro Devices, Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-28), FY2023 comparative
+SEC filed: 2025-02-05; accession 0000002488-25-000012
+Relevant section: Consolidated Financial Statements; Segment Note; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm
+
+NVDA • NVIDIA Corporation • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-26), FY2024 comparative
+SEC filed: 2025-02-26; accession 0001045810-25-000023
+Relevant section: Consolidated Statements of Income; Cash Flows; Item 1A; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AMD | FY2024 revenue: 25785
+AMD | FY2023 revenue: 22680
+NVDA | FY2025 revenue: 130497
+NVDA | FY2024 revenue: 60922
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Using their respective disclosed fiscal years, which had faster reported revenue growth: AMD FY2024 ($25,785m vs $22,680m) or NVIDIA FY2025 ($130,497m vs $60,922m)?
+
+
+==================================================
+QUESTION 7/10 | D07-CTX | Company analysis | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D07
+COST • Costco Wholesale Corporation • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-01), FY2023 comparative (53 weeks)
+SEC filed: 2024-10-09; accession 0000909832-24-000049
+Relevant section: Statements of Income; Cash Flows; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm
+
+WMT • Walmart Inc. • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-31), FY2024 comparative
+SEC filed: 2025-03-14; accession 0000104169-25-000021
+Relevant section: Statements of Income; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+COST | FY2024 total revenue: 254453
+COST | FY2023 total revenue: 242290
+COST | FY2024 reporting weeks: 52
+COST | FY2023 reporting weeks: 53
+WMT | FY2025 total revenue: 680985
+WMT | FY2024 total revenue: 648125
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Compare reported revenue growth for Costco FY2024 versus FY2023 ($254,453m/$242,290m) and Walmart FY2025 versus FY2024 ($680,985m/$648,125m). Why might a tiny difference in raw growth rates be overinterpreted?
+
+
+==================================================
+QUESTION 8/10 | D08-CTX | Company analysis | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D08
+KO • The Coca-Cola Company • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-31), FY2023 comparative
+SEC filed: 2025-02-20; accession 0000021344-25-000011
+Relevant section: Statements of Income; Balance Sheets; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm
+
+PG • The Procter & Gamble Company • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-08-05; accession 0000080424-24-000083
+Relevant section: Statements of Earnings; Cash Flows; MD&A; Segment Disclosures
+Source: https://www.sec.gov/Archives/edgar/data/80424/000008042424000083/pg-20240630.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+KO | FY2024 revenue: 47061
+KO | FY2023 revenue: 45754
+PG | FY2024 revenue: 84039
+PG | FY2023 revenue: 82006
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Compare percentage revenue growth for Coca-Cola FY2024 ($47,061m vs $45,754m) and P&G FY2024 ($84,039m vs $82,006m). Which grew faster in its reported fiscal year?
+
+
+==================================================
+QUESTION 9/10 | D09-CTX | Company analysis | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D09
+MSFT • Microsoft Corporation • FY2024 Annual Report / Form 10-K
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-07-30; accession 0000950170-24-087843
+Relevant section: Financial Statements; Segment Results; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm
+
+AAPL • Apple Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-28), FY2023 comparative
+SEC filed: 2024-11-01; accession 0000320193-24-000123
+Relevant section: Consolidated Statements of Operations; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+MSFT | FY2024 revenue: 245122
+MSFT | FY2023 revenue: 211915
+AAPL | FY2024 revenue: 391035
+AAPL | FY2023 revenue: 383285
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Microsoft FY2024 revenue rose from $211,915m to $245,122m; Apple FY2024 sales rose from $383,285m to $391,035m. Compare their percentage growth and explain why larger absolute revenue does not imply higher growth.
+
+
+==================================================
+QUESTION 10/10 | D10-CTX | Company analysis | Hard
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D10
+XOM • Exxon Mobil Corporation • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-31), FY2023 comparative
+SEC filed: 2025-02-19; accession 0000034088-25-000010
+Relevant section: Full-year 2024 Results / consolidated highlights
+Source: https://www.sec.gov/Archives/edgar/data/34088/000003408825000010/xom-20241231.htm
+
+CVX • Chevron Corporation • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-31), FY2023 comparative
+SEC filed: 2025-02-21; accession 0000093410-25-000009
+Relevant section: Consolidated Financial Statements; Five-Year Summary; MD&A; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/93410/000009341025000009/cvx-20241231.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+XOM | FY2024 sales and other operating revenues: 339247
+XOM | FY2023 sales and other operating revenues: 334697
+CVX | FY2024 sales and other operating revenues: 193414
+CVX | FY2023 sales and other operating revenues: 196913
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: ExxonMobil FY2024 sales and other operating revenue were $339,247m versus $334,697m in FY2023. Chevron FY2024 used the same headline category: $193,414m versus $196,913m. Compare the percentage growth rates, then give two limits of interpreting this as an investment ranking.

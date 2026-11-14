@@ -1,0 +1,79 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: pilot_02
+Dataset: PILOT ONLY
+Questions in this booklet: 10
+Run IDs: P-C03-PILOT, P-C04-PILOT, P-D01-PILOT, P-D02-PILOT, P-D03-PILOT, P-D04-PILOT, P-E01-PILOT, P-E02-PILOT, P-E03-PILOT, P-E04-PILOT
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[P-C03-PILOT]]
+Your complete answer here
+[[/P-C03-PILOT]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | P-C03-PILOT | C | Medium
+==================================================
+Hypothetical: annual net income is $90m and diluted weighted-average shares are 30m. What is diluted EPS?
+
+
+==================================================
+QUESTION 2/10 | P-C04-PILOT | C | Hard
+==================================================
+Hypothetical: operating cash flow is $85m, capex $24m and business acquisitions use $30m. Compute simple CFO-minus-capex FCF and state whether acquisition cash is subtracted in this defined measure.
+
+
+==================================================
+QUESTION 3/10 | P-D01-PILOT | D | Easy
+==================================================
+Did Apple FY2024 revenue exceed Microsoft FY2024 revenue in USD millions?
+
+
+==================================================
+QUESTION 4/10 | P-D02-PILOT | D | Medium
+==================================================
+AMD FY2024 gross profit was $12,725m on $25,785m revenue. NVIDIA FY2025 was $97,858m on $130,497m. Who has a higher reported gross margin?
+
+
+==================================================
+QUESTION 5/10 | P-D03-PILOT | D | Medium
+==================================================
+P&G FY2024 cash from operations was $19,846m and Costco FY2024 was $11,339m. Is the higher absolute CFO enough to say P&G is more efficient?
+
+
+==================================================
+QUESTION 6/10 | P-D04-PILOT | D | Hard
+==================================================
+AMD FY2024 inventories rose while revenue grew. Explain two plausible reasons and why inventory growth alone does not establish weaker financial health than another semiconductor firm.
+
+
+==================================================
+QUESTION 7/10 | P-E01-PILOT | E | Easy
+==================================================
+Can a company's historical 10-year share-price increase guarantee its next-year performance?
+
+
+==================================================
+QUESTION 8/10 | P-E02-PILOT | E | Medium
+==================================================
+A worker must pay rent next month but has invested the entire rent amount in a stock fund. Name the core risk mismatch.
+
+
+==================================================
+QUESTION 9/10 | P-E03-PILOT | E | Medium
+==================================================
+AMD disclosed export and manufacturing risks. Why does one year of revenue growth not negate either risk?
+
+
+==================================================
+QUESTION 10/10 | P-E04-PILOT | E | Hard
+==================================================
+An investor says: "An asset can never fall more than 10% because it has never done so in my five-year sample." Identify the statistical error.

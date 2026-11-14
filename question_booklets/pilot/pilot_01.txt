@@ -1,0 +1,79 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: pilot_01
+Dataset: PILOT ONLY
+Questions in this booklet: 10
+Run IDs: P-A01-PILOT, P-A02-PILOT, P-A03-PILOT, P-A04-PILOT, P-B01-PILOT, P-B02-PILOT, P-B03-PILOT, P-B04-PILOT, P-C01-PILOT, P-C02-PILOT
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[P-A01-PILOT]]
+Your complete answer here
+[[/P-A01-PILOT]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | P-A01-PILOT | A | Easy
+==================================================
+What is the main difference between a stock dividend and bond coupon?
+
+
+==================================================
+QUESTION 2/10 | P-A02-PILOT | A | Medium
+==================================================
+Why does a firm with positive net income not necessarily have positive cash at year-end?
+
+
+==================================================
+QUESTION 3/10 | P-A03-PILOT | A | Medium
+==================================================
+A company changes from 100m to 200m shares solely due to a two-for-one stock split. Does the split alone double equity market capitalization?
+
+
+==================================================
+QUESTION 4/10 | P-A04-PILOT | A | Hard
+==================================================
+An investor claims a 20% ROE always means a company is operationally better than one with 12% ROE. Identify two counterexamples.
+
+
+==================================================
+QUESTION 5/10 | P-B01-PILOT | B | Easy
+==================================================
+In Apple FY2024, approximately how much was R&D expense, in USD billions?
+
+
+==================================================
+QUESTION 6/10 | P-B02-PILOT | B | Medium
+==================================================
+Microsoft FY2024 net income was $88,136m and operating income was $109,433m. Are these the same measure, and what does the gap imply?
+
+
+==================================================
+QUESTION 7/10 | P-B03-PILOT | B | Medium
+==================================================
+Walmart FY2025 inventory was $56,435m versus $54,892m in FY2024. Can you say inventory fell?
+
+
+==================================================
+QUESTION 8/10 | P-B04-PILOT | B | Hard
+==================================================
+Costco FY2024 revenue includes merchandise sales and membership fees. Why can neither revenue category alone be interpreted as segment net income?
+
+
+==================================================
+QUESTION 9/10 | P-C01-PILOT | C | Easy
+==================================================
+Hypothetical: a company has $240m revenue and $60m gross profit. What is gross margin?
+
+
+==================================================
+QUESTION 10/10 | P-C02-PILOT | C | Medium
+==================================================
+Hypothetical: a bond bought for $950 has face value $1,000 and a $40 annual coupon. What is the current yield to two decimals?

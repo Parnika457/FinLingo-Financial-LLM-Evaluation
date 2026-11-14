@@ -1,0 +1,246 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: with_context_02
+Dataset: Context-provided - 80 additional cases
+Questions in this booklet: 10
+Run IDs: B11-CTX, B12-CTX, B13-CTX, B14-CTX, B15-CTX, B16-CTX, B17-CTX, B18-CTX, B19-CTX, B20-CTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[B11-CTX]]
+Your complete answer here
+[[/B11-CTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | B11-CTX | Financial statements | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B11
+MSFT • Microsoft Corporation • FY2024 Annual Report / Form 10-K
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-07-30; accession 0000950170-24-087843
+Relevant section: Financial Statements; Segment Results; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+MSFT | FY2024 operating cash flow: 118548
+MSFT | FY2023 operating cash flow: 87582
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: How much operating cash flow did Microsoft report for FY2024, in USD billions?
+
+
+==================================================
+QUESTION 2/10 | B12-CTX | Financial statements | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B12
+WMT • Walmart Inc. • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-31), FY2024 comparative
+SEC filed: 2025-03-14; accession 0000104169-25-000021
+Relevant section: Statements of Income; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+WMT | FY2025 operating cash flow: 36443
+WMT | FY2024 operating cash flow: 35726
+WMT | FY2025 capital expenditure: 23783
+WMT | FY2024 capital expenditure: 20606
+WMT | FY2025 company FCF: 12660
+WMT | FY2024 company FCF: 15120
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Walmart's FY2025 operating cash flow rose, yet company-defined free cash flow fell from FY2024. Identify the figures and primary arithmetic explanation.
+
+
+==================================================
+QUESTION 3/10 | B13-CTX | Financial statements | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B13
+NVDA • NVIDIA Corporation • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-26), FY2024 comparative
+SEC filed: 2025-02-26; accession 0001045810-25-000023
+Relevant section: Consolidated Statements of Income; Cash Flows; Item 1A; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+NVDA | FY2025 net income: 72880
+NVDA | FY2025 operating cash flow: 64089
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: For NVIDIA FY2025, how did net income compare with cash provided by operations, and why are they not interchangeable measures?
+
+
+==================================================
+QUESTION 4/10 | B14-CTX | Financial statements | Hard
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B14
+MSFT • Microsoft Corporation • FY2024 Annual Report / Form 10-K
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-07-30; accession 0000950170-24-087843
+Relevant section: Financial Statements; Segment Results; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+MSFT | FY2024 operating cash flow: 118548
+MSFT | FY2023 operating cash flow: 87582
+MSFT | FY2024 capital expenditure: 44477
+MSFT | FY2023 capital expenditure: 28107
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Compare Microsoft's FY2024 and FY2023 capital expenditure and operating cash flow. Did the spending rise faster in percentage terms than operating cash flow?
+
+
+==================================================
+QUESTION 5/10 | B15-CTX | Financial statements | Hard
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B15
+CVX • Chevron Corporation • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-31), FY2023 comparative
+SEC filed: 2025-02-21; accession 0000093410-25-000009
+Relevant section: Consolidated Financial Statements; Five-Year Summary; MD&A; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/93410/000009341025000009/cvx-20241231.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+CVX | FY2024 net income attributable to parent: 17661
+CVX | FY2023 net income attributable to parent: 21369
+CVX | FY2024 operating cash flow: 31492
+CVX | FY2023 operating cash flow: 35609
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Chevron FY2024 earnings fell from FY2023 and operating cash flow also fell. Does the cash flow statement establish that the earnings change was entirely a noncash accounting effect?
+
+
+==================================================
+QUESTION 6/10 | B16-CTX | Financial statements | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B16
+AMD • Advanced Micro Devices, Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-28), FY2023 comparative
+SEC filed: 2025-02-05; accession 0000002488-25-000012
+Relevant section: Consolidated Financial Statements; Segment Note; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AMD | FY2024 Data Center revenue USD billions: 12.6
+AMD | FY2023 Data Center revenue USD billions: 6.5
+AMD | filing note segment: Segment revenue values in USD billions are approximately rounded in MD&A. Data Center growth reflected demand for data-center CPUs/GPUs; Gaming weakened partly from lower semi-custom revenue; Embedded was affected by customer inventory normalization.
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: What explanation does AMD's FY2024 annual report give for the strong growth in its Data Center segment?
+
+
+==================================================
+QUESTION 7/10 | B17-CTX | Financial statements | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B17
+PG • The Procter & Gamble Company • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-08-05; accession 0000080424-24-000083
+Relevant section: Statements of Earnings; Cash Flows; MD&A; Segment Disclosures
+Source: https://www.sec.gov/Archives/edgar/data/80424/000008042424000083/pg-20240630.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+PG | FY2024 gross margin percent: 51.4
+PG | FY2024 gross margin increase basis points: 350
+PG | filing note mda: Gross-margin expansion reflected productivity, lower commodity costs and pricing; offsets included mix and foreign exchange. A noncash Gillette impairment affected reported results.
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: P&G reported gross-margin expansion in FY2024. Name two favorable drivers and one offset identified by management.
+
+
+==================================================
+QUESTION 8/10 | B18-CTX | Financial statements | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B18
+AMD • Advanced Micro Devices, Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-28), FY2023 comparative
+SEC filed: 2025-02-05; accession 0000002488-25-000012
+Relevant section: Consolidated Financial Statements; Segment Note; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AMD | FY2024 Gaming revenue USD billions: 2.6
+AMD | FY2023 Gaming revenue USD billions: 6.2
+AMD | FY2024 revenue: 25785
+AMD | FY2023 revenue: 22680
+AMD | filing note segment: Segment revenue values in USD billions are approximately rounded in MD&A. Data Center growth reflected demand for data-center CPUs/GPUs; Gaming weakened partly from lower semi-custom revenue; Embedded was affected by customer inventory normalization.
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: AMD FY2024 Gaming segment revenue contracted even as total company revenue expanded. Contrast the reported segment figures with the consolidated trend and the disclosed driver.
+
+
+==================================================
+QUESTION 9/10 | B19-CTX | Financial statements | Hard
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B19
+COST • Costco Wholesale Corporation • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-01), FY2023 comparative (53 weeks)
+SEC filed: 2024-10-09; accession 0000909832-24-000049
+Relevant section: Statements of Income; Cash Flows; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+COST | FY2024 total revenue: 254453
+COST | FY2023 total revenue: 242290
+COST | FY2024 reporting weeks: 52
+COST | FY2023 reporting weeks: 53
+COST | filing note reporting: FY2024 contained 52 weeks; FY2023 contained 53 weeks. Simple year-over-year growth mixes a 52-week year with a 53-week year.
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Costco's FY2024 revenue rose compared with FY2023. Why is a simplistic equal-length-year comparison potentially misleading?
+
+
+==================================================
+QUESTION 10/10 | B20-CTX | Financial statements | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B20
+COST • Costco Wholesale Corporation • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-01), FY2023 comparative (53 weeks)
+SEC filed: 2024-10-09; accession 0000909832-24-000049
+Relevant section: Statements of Income; Cash Flows; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+COST | FY2024 membership fees: 4828
+COST | FY2024 net sales: 249625
+COST | FY2024 total revenue: 254453
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: In Costco FY2024 reporting, is membership-fee revenue included in reported total revenue, and what are the approximate amounts?

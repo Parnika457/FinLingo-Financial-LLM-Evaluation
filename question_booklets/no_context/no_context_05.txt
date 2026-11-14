@@ -1,0 +1,79 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: no_context_05
+Dataset: No added context - 120 question baseline
+Questions in this booklet: 10
+Run IDs: B21-NOCTX, B22-NOCTX, B23-NOCTX, B24-NOCTX, B25-NOCTX, C01-NOCTX, C02-NOCTX, C03-NOCTX, C04-NOCTX, C05-NOCTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[B21-NOCTX]]
+Your complete answer here
+[[/B21-NOCTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | B21-NOCTX | Financial statements | Medium
+==================================================
+Explain why P&G's FY2024 core EPS should not be treated as interchangeable with GAAP diluted EPS. State both reported values.
+
+
+==================================================
+QUESTION 2/10 | B22-NOCTX | Financial statements | Hard
+==================================================
+NVIDIA disclosed its three largest direct customers individually represented 12%, 11%, and 11% of FY2025 revenue. What concentration can be established and what cannot be inferred?
+
+
+==================================================
+QUESTION 3/10 | B23-NOCTX | Financial statements | Hard
+==================================================
+Do Costco's FY2024 figures for membership-fee revenue, net sales and total revenue establish the exact net profit attributable exclusively to membership fees after allocating companywide expenses?
+
+
+==================================================
+QUESTION 4/10 | B24-NOCTX | Financial statements | Easy
+==================================================
+Which company's annual period ended later: Walmart FY2025 or Microsoft FY2024? State both year-end dates and why labeling both simply "2024" could mislead.
+
+
+==================================================
+QUESTION 5/10 | B25-NOCTX | Financial statements | Medium
+==================================================
+Does Apple's FY2024 balance sheet total assets and shareholders' equity reveal the company's exact stock-market capitalization at the FY2024 year-end?
+
+
+==================================================
+QUESTION 6/10 | C01-NOCTX | Numerical reasoning | Easy
+==================================================
+Apple reported FY2024 net sales of $391,035 million versus $383,285 million in FY2023. Calculate year-over-year revenue growth as a percentage, to two decimals.
+
+
+==================================================
+QUESTION 7/10 | C02-NOCTX | Numerical reasoning | Easy
+==================================================
+NVIDIA reported FY2025 revenue of $130,497 million and FY2024 revenue of $60,922 million. What is the year-over-year revenue growth rate, to two decimal places?
+
+
+==================================================
+QUESTION 8/10 | C03-NOCTX | Numerical reasoning | Medium
+==================================================
+Walmart FY2025 total revenue was $680,985 million versus $648,125 million in FY2024. Compute the absolute increase in total revenue in USD billions, to three decimals.
+
+
+==================================================
+QUESTION 9/10 | C04-NOCTX | Numerical reasoning | Medium
+==================================================
+Hypothetical: a firm's revenue grows from $200 million at the end of Year 0 to $266.2 million at the end of Year 3. Find its three-year revenue CAGR, in percent to two decimals.
+
+
+==================================================
+QUESTION 10/10 | C05-NOCTX | Numerical reasoning | Hard
+==================================================
+Hypothetical: revenue is $80 million at the end of 2021, $108 million at the end of 2023 and $133.1 million at the end of 2025. Find the full four-year CAGR from 2021 to 2025, in percent to two decimals. Do not average the two interim growth rates.

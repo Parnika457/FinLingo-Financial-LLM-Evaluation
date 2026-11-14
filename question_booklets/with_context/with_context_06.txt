@@ -1,0 +1,304 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: with_context_06
+Dataset: Context-provided - 80 additional cases
+Questions in this booklet: 10
+Run IDs: D11-CTX, D12-CTX, D13-CTX, D14-CTX, D15-CTX, D16-CTX, D17-CTX, D18-CTX, D19-CTX, D20-CTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[D11-CTX]]
+Your complete answer here
+[[/D11-CTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | D11-CTX | Company analysis | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D11
+AMD • Advanced Micro Devices, Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-28), FY2023 comparative
+SEC filed: 2025-02-05; accession 0000002488-25-000012
+Relevant section: Consolidated Financial Statements; Segment Note; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm
+
+MSFT • Microsoft Corporation • FY2024 Annual Report / Form 10-K
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-07-30; accession 0000950170-24-087843
+Relevant section: Financial Statements; Segment Results; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AMD | FY2024 current assets: 19049
+AMD | FY2024 current liabilities: 7281
+MSFT | FY2024 current assets: 159734
+MSFT | FY2024 current liabilities: 125286
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Compare AMD FY2024 current ratio ($19,049m assets, $7,281m liabilities) and Microsoft FY2024 current ratio ($159,734m assets, $125,286m liabilities). Which is larger?
+
+
+==================================================
+QUESTION 2/10 | D12-CTX | Company analysis | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D12
+AAPL • Apple Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-28), FY2023 comparative
+SEC filed: 2024-11-01; accession 0000320193-24-000123
+Relevant section: Consolidated Statements of Operations; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm
+
+AMD • Advanced Micro Devices, Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-28), FY2023 comparative
+SEC filed: 2025-02-05; accession 0000002488-25-000012
+Relevant section: Consolidated Financial Statements; Segment Note; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AAPL | FY2024 current assets: 152987
+AAPL | FY2024 current liabilities: 176392
+AMD | FY2024 current assets: 19049
+AMD | FY2024 current liabilities: 7281
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Apple FY2024 current assets/liabilities were $152,987m/$176,392m, and AMD FY2024 were $19,049m/$7,281m. Contrast working capital (assets minus liabilities) and what a negative result means.
+
+
+==================================================
+QUESTION 3/10 | D13-CTX | Company analysis | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D13
+KO • The Coca-Cola Company • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-31), FY2023 comparative
+SEC filed: 2025-02-20; accession 0000021344-25-000011
+Relevant section: Statements of Income; Balance Sheets; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm
+
+AMD • Advanced Micro Devices, Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-28), FY2023 comparative
+SEC filed: 2025-02-05; accession 0000002488-25-000012
+Relevant section: Consolidated Financial Statements; Segment Note; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+KO | FY2024 cash: 10828
+KO | FY2024 assets: 100549
+AMD | FY2024 cash: 3787
+AMD | FY2024 assets: 69226
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Coca-Cola FY2024 cash was $10,828m on assets $100,549m; AMD FY2024 cash $3,787m on assets $69,226m. Which had more cash as a percentage of reported assets, and what does that measure omit?
+
+
+==================================================
+QUESTION 4/10 | D14-CTX | Company analysis | Hard
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D14
+MSFT • Microsoft Corporation • FY2024 Annual Report / Form 10-K
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-07-30; accession 0000950170-24-087843
+Relevant section: Financial Statements; Segment Results; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm
+
+AAPL • Apple Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-28), FY2023 comparative
+SEC filed: 2024-11-01; accession 0000320193-24-000123
+Relevant section: Consolidated Statements of Operations; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+MSFT | FY2024 cash and short-term investments: 75543
+MSFT | FY2024 cash: 18315
+AAPL | FY2024 cash: 29943
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Microsoft FY2024 cash and short-term investments were $75,543m and Apple FY2024 cash alone was $29,943m. Is it methodologically valid to infer that Microsoft had exactly $45,600m more cash under a consistent cash definition?
+
+
+==================================================
+QUESTION 5/10 | D15-CTX | Company analysis | Hard
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D15
+AAPL • Apple Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-28), FY2023 comparative
+SEC filed: 2024-11-01; accession 0000320193-24-000123
+Relevant section: Consolidated Statements of Operations; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm
+
+MSFT • Microsoft Corporation • FY2024 Annual Report / Form 10-K
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-07-30; accession 0000950170-24-087843
+Relevant section: Financial Statements; Segment Results; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AAPL | FY2024 current assets: 152987
+AAPL | FY2024 current liabilities: 176392
+AAPL | FY2024 operating cash flow: 118254
+MSFT | FY2024 current assets: 159734
+MSFT | FY2024 current liabilities: 125286
+MSFT | FY2024 operating cash flow: 118548
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Compare Apple and Microsoft FY2024 using TWO liquidity indicators: current ratio and operating cash flow. Apple: assets/liabilities $152,987m/$176,392m, CFO $118,254m; Microsoft: $159,734m/$125,286m, CFO $118,548m. Is the larger current ratio equivalent to much higher annual operating cash flow?
+
+
+==================================================
+QUESTION 6/10 | D16-CTX | Company analysis | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D16
+NVDA • NVIDIA Corporation • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-26), FY2024 comparative
+SEC filed: 2025-02-26; accession 0001045810-25-000023
+Relevant section: Consolidated Statements of Income; Cash Flows; Item 1A; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm
+
+MSFT • Microsoft Corporation • FY2024 Annual Report / Form 10-K
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-07-30; accession 0000950170-24-087843
+Relevant section: Financial Statements; Segment Results; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+NVDA | FY2025 net income: 72880
+NVDA | FY2025 operating cash flow: 64089
+MSFT | FY2024 net income: 88136
+MSFT | FY2024 operating cash flow: 118548
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: NVIDIA FY2025 net income/CFO were $72,880m/$64,089m while Microsoft FY2024 were $88,136m/$118,548m. Which had the larger CFO-to-net-income ratio?
+
+
+==================================================
+QUESTION 7/10 | D17-CTX | Company analysis | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D17
+PG • The Procter & Gamble Company • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-08-05; accession 0000080424-24-000083
+Relevant section: Statements of Earnings; Cash Flows; MD&A; Segment Disclosures
+Source: https://www.sec.gov/Archives/edgar/data/80424/000008042424000083/pg-20240630.htm
+
+WMT • Walmart Inc. • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-31), FY2024 comparative
+SEC filed: 2025-03-14; accession 0000104169-25-000021
+Relevant section: Statements of Income; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+PG | FY2024 operating cash flow: 19846
+PG | FY2024 net income attributable to parent: 14879
+WMT | FY2025 operating cash flow: 36443
+WMT | FY2025 net income attributable to parent: 19436
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: P&G FY2024 operating cash flow/net income attributable to parent were $19,846m/$14,879m. Walmart FY2025 were $36,443m/$19,436m. Compare CFO divided by attributable net income, noting a limitation.
+
+
+==================================================
+QUESTION 8/10 | D18-CTX | Company analysis | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D18
+COST • Costco Wholesale Corporation • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-01), FY2023 comparative (53 weeks)
+SEC filed: 2024-10-09; accession 0000909832-24-000049
+Relevant section: Statements of Income; Cash Flows; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm
+
+WMT • Walmart Inc. • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-31), FY2024 comparative
+SEC filed: 2025-03-14; accession 0000104169-25-000021
+Relevant section: Statements of Income; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+COST | FY2024 operating cash flow: 11339
+COST | FY2024 capital expenditure: 4710
+COST | FY2024 total revenue: 254453
+WMT | FY2025 operating cash flow: 36443
+WMT | FY2025 capital expenditure: 23783
+WMT | FY2025 total revenue: 680985
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Compare simple free-cash-flow margins for Costco FY2024 (CFO $11,339m, capex $4,710m, revenue $254,453m) and Walmart FY2025 (CFO $36,443m, capex $23,783m, revenue $680,985m). Which was higher?
+
+
+==================================================
+QUESTION 9/10 | D19-CTX | Company analysis | Hard
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D19
+COST • Costco Wholesale Corporation • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-01), FY2023 comparative (53 weeks)
+SEC filed: 2024-10-09; accession 0000909832-24-000049
+Relevant section: Statements of Income; Cash Flows; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm
+
+WMT • Walmart Inc. • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-31), FY2024 comparative
+SEC filed: 2025-03-14; accession 0000104169-25-000021
+Relevant section: Statements of Income; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+COST | FY2024 operating cash flow: 11339
+COST | FY2024 capital expenditure: 4710
+WMT | FY2025 operating cash flow: 36443
+WMT | FY2025 capital expenditure: 23783
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Between Costco FY2024 and Walmart FY2025, which spent a larger fraction of operating cash flow on capital expenditure? Explain why lower capex/CFO is not automatically a better operational strategy.
+
+
+==================================================
+QUESTION 10/10 | D20-CTX | Company analysis | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D20
+AMD • Advanced Micro Devices, Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-28), FY2023 comparative
+SEC filed: 2025-02-05; accession 0000002488-25-000012
+Relevant section: Consolidated Financial Statements; Segment Note; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AMD | FY2024 Data Center revenue USD billions: 12.6
+AMD | FY2024 Gaming revenue USD billions: 2.6
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Within AMD FY2024, which was the larger segment by annual revenue: Data Center or Gaming, and what were the approximate figures?

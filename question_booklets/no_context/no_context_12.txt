@@ -1,0 +1,79 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: no_context_12
+Dataset: No added context - 120 question baseline
+Questions in this booklet: 10
+Run IDs: E16-NOCTX, E17-NOCTX, E18-NOCTX, E19-NOCTX, E20-NOCTX, E21-NOCTX, E22-NOCTX, E23-NOCTX, E24-NOCTX, E25-NOCTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[E16-NOCTX]]
+Your complete answer here
+[[/E16-NOCTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | E16-NOCTX | Risk and uncertainty | Easy
+==================================================
+Walmart FY2025 CFO rose from $35,726m to $36,443m while capex increased from $20,606m to $23,783m. What would a cautious one-year free-cash-flow forecast need to consider?
+
+
+==================================================
+QUESTION 2/10 | E17-NOCTX | Risk and uncertainty | Medium
+==================================================
+Apple FY2024 Services revenue grew from $85,200m to $96,169m while Products revenue declined. What additional evidence is needed before assuming Services growth will persist at the same rate?
+
+
+==================================================
+QUESTION 3/10 | E18-NOCTX | Risk and uncertainty | Medium
+==================================================
+P&G FY2024 gross margin improved after productivity gains and lower commodity costs. Why should a forecast avoid applying the same 350-basis-point improvement every year?
+
+
+==================================================
+QUESTION 4/10 | E19-NOCTX | Risk and uncertainty | Hard
+==================================================
+From NVIDIA's FY2025 revenue ($130,497m), net income ($72,880m) and stated export-control risk alone, can you determine with certainty its exact FY2026 net income?
+
+
+==================================================
+QUESTION 5/10 | E20-NOCTX | Risk and uncertainty | Easy
+==================================================
+A post claims AMD's FY2024 Data Center revenue roughly doubled, therefore its stock must return at least 25% next year. What is wrong with the inference?
+
+
+==================================================
+QUESTION 6/10 | E21-NOCTX | Risk and uncertainty | Medium
+==================================================
+Can Microsoft's FY2024 financial statements and the disclosed cloud-service risks guarantee that a person purchasing its shares will never lose principal over the next three years?
+
+
+==================================================
+QUESTION 7/10 | E22-NOCTX | Risk and uncertainty | Hard
+==================================================
+Based only on Costco's FY2024 membership-fee revenue and renewal-rate disclosures, what EXACT percentage return will its shares earn between September 2024 and September 2027?
+
+
+==================================================
+QUESTION 8/10 | E23-NOCTX | Risk and uncertainty | Easy
+==================================================
+From Apple's FY2024 revenue and net income alone, can you calculate its exact maximum intraday stock-price drawdown during October 2024?
+
+
+==================================================
+QUESTION 9/10 | E24-NOCTX | Risk and uncertainty | Medium
+==================================================
+From Walmart's FY2025 cash flow and capex figures alone, can you establish whether a named retail investor can safely invest their entire emergency fund in Walmart shares?
+
+
+==================================================
+QUESTION 10/10 | E25-NOCTX | Risk and uncertainty | Hard
+==================================================
+From Chevron's FY2024 operating cash flow and disclosed commodity-price sensitivity, can you state with certainty the exact oil price and Chevron share price on 31 December 2027?

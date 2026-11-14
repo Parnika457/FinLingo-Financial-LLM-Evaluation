@@ -1,0 +1,79 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: no_context_09
+Dataset: No added context - 120 question baseline
+Questions in this booklet: 10
+Run IDs: D11-NOCTX, D12-NOCTX, D13-NOCTX, D14-NOCTX, D15-NOCTX, D16-NOCTX, D17-NOCTX, D18-NOCTX, D19-NOCTX, D20-NOCTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[D11-NOCTX]]
+Your complete answer here
+[[/D11-NOCTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | D11-NOCTX | Company analysis | Easy
+==================================================
+Compare AMD FY2024 current ratio ($19,049m assets, $7,281m liabilities) and Microsoft FY2024 current ratio ($159,734m assets, $125,286m liabilities). Which is larger?
+
+
+==================================================
+QUESTION 2/10 | D12-NOCTX | Company analysis | Medium
+==================================================
+Apple FY2024 current assets/liabilities were $152,987m/$176,392m, and AMD FY2024 were $19,049m/$7,281m. Contrast working capital (assets minus liabilities) and what a negative result means.
+
+
+==================================================
+QUESTION 3/10 | D13-NOCTX | Company analysis | Medium
+==================================================
+Coca-Cola FY2024 cash was $10,828m on assets $100,549m; AMD FY2024 cash $3,787m on assets $69,226m. Which had more cash as a percentage of reported assets, and what does that measure omit?
+
+
+==================================================
+QUESTION 4/10 | D14-NOCTX | Company analysis | Hard
+==================================================
+Microsoft FY2024 cash and short-term investments were $75,543m and Apple FY2024 cash alone was $29,943m. Is it methodologically valid to infer that Microsoft had exactly $45,600m more cash under a consistent cash definition?
+
+
+==================================================
+QUESTION 5/10 | D15-NOCTX | Company analysis | Hard
+==================================================
+Compare Apple and Microsoft FY2024 using TWO liquidity indicators: current ratio and operating cash flow. Apple: assets/liabilities $152,987m/$176,392m, CFO $118,254m; Microsoft: $159,734m/$125,286m, CFO $118,548m. Is the larger current ratio equivalent to much higher annual operating cash flow?
+
+
+==================================================
+QUESTION 6/10 | D16-NOCTX | Company analysis | Easy
+==================================================
+NVIDIA FY2025 net income/CFO were $72,880m/$64,089m while Microsoft FY2024 were $88,136m/$118,548m. Which had the larger CFO-to-net-income ratio?
+
+
+==================================================
+QUESTION 7/10 | D17-NOCTX | Company analysis | Medium
+==================================================
+P&G FY2024 operating cash flow/net income attributable to parent were $19,846m/$14,879m. Walmart FY2025 were $36,443m/$19,436m. Compare CFO divided by attributable net income, noting a limitation.
+
+
+==================================================
+QUESTION 8/10 | D18-NOCTX | Company analysis | Medium
+==================================================
+Compare simple free-cash-flow margins for Costco FY2024 (CFO $11,339m, capex $4,710m, revenue $254,453m) and Walmart FY2025 (CFO $36,443m, capex $23,783m, revenue $680,985m). Which was higher?
+
+
+==================================================
+QUESTION 9/10 | D19-NOCTX | Company analysis | Hard
+==================================================
+Between Costco FY2024 and Walmart FY2025, which spent a larger fraction of operating cash flow on capital expenditure? Explain why lower capex/CFO is not automatically a better operational strategy.
+
+
+==================================================
+QUESTION 10/10 | D20-NOCTX | Company analysis | Easy
+==================================================
+Within AMD FY2024, which was the larger segment by annual revenue: Data Center or Gaming, and what were the approximate figures?

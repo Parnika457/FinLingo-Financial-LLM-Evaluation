@@ -1,0 +1,79 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: no_context_06
+Dataset: No added context - 120 question baseline
+Questions in this booklet: 10
+Run IDs: C06-NOCTX, C07-NOCTX, C08-NOCTX, C09-NOCTX, C10-NOCTX, C11-NOCTX, C12-NOCTX, C13-NOCTX, C14-NOCTX, C15-NOCTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[C06-NOCTX]]
+Your complete answer here
+[[/C06-NOCTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | C06-NOCTX | Numerical reasoning | Easy
+==================================================
+Coca-Cola reported FY2024 gross profit of $28,737 million and net operating revenue of $47,061 million. Calculate gross profit margin, to two decimals.
+
+
+==================================================
+QUESTION 2/10 | C07-NOCTX | Numerical reasoning | Easy
+==================================================
+AMD FY2024 operating income was $1,900 million on revenue of $25,785 million. Compute operating margin, to two decimals.
+
+
+==================================================
+QUESTION 3/10 | C08-NOCTX | Numerical reasoning | Medium
+==================================================
+NVIDIA reported FY2025 net income $72,880 million on revenue $130,497 million; FY2024 net income $29,760 million on revenue $60,922 million. By how many percentage points did its net profit margin change, to two decimals?
+
+
+==================================================
+QUESTION 4/10 | C09-NOCTX | Numerical reasoning | Medium
+==================================================
+Hypothetical: a firm made $36 million net income in a year; total assets at the beginning and end of the year were $360 million and $440 million. Calculate ROA using AVERAGE total assets, to two decimals.
+
+
+==================================================
+QUESTION 5/10 | C10-NOCTX | Numerical reasoning | Hard
+==================================================
+Hypothetical: Firm A has revenue $800 million, cost of goods sold $500 million and operating expenses excluding COGS of $180 million. Firm B has revenue $600 million, COGS $330 million and operating expenses of $180 million. By how many percentage points is A's operating margin greater than B's? Enter a negative result if it is lower; round to two decimals.
+
+
+==================================================
+QUESTION 6/10 | C11-NOCTX | Numerical reasoning | Easy
+==================================================
+AMD FY2024 current assets were $19,049 million and current liabilities $7,281 million. Calculate the current ratio, to two decimals.
+
+
+==================================================
+QUESTION 7/10 | C12-NOCTX | Numerical reasoning | Easy
+==================================================
+Chevron reported FY2024 debt and finance leases of $24,541 million and shareholders' equity of $152,318 million. Compute debt-to-equity using only those explicitly defined items, to two decimals.
+
+
+==================================================
+QUESTION 8/10 | C13-NOCTX | Numerical reasoning | Medium
+==================================================
+Microsoft FY2024 current assets/liabilities were $159,734m/$125,286m; FY2023 were $184,257m/$104,149m. Compute the CHANGE in current ratio (FY2024 minus FY2023), to two decimals.
+
+
+==================================================
+QUESTION 9/10 | C14-NOCTX | Numerical reasoning | Medium
+==================================================
+Hypothetical: a company has $520 million interest-bearing debt, $140 million cash and $80 million short-term investments. Define net debt as debt minus BOTH cash and short-term investments. What is net debt, USD millions?
+
+
+==================================================
+QUESTION 10/10 | C15-NOCTX | Numerical reasoning | Hard
+==================================================
+Hypothetical: a company has $120m cash, $180m receivables, $240m inventory, $60m other current assets and $400m current liabilities. Calculate the QUICK ratio excluding inventory and other current assets, to two decimals.

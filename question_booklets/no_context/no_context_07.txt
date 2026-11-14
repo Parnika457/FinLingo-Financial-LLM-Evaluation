@@ -1,0 +1,79 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: no_context_07
+Dataset: No added context - 120 question baseline
+Questions in this booklet: 10
+Run IDs: C16-NOCTX, C17-NOCTX, C18-NOCTX, C19-NOCTX, C20-NOCTX, C21-NOCTX, C22-NOCTX, C23-NOCTX, C24-NOCTX, C25-NOCTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[C16-NOCTX]]
+Your complete answer here
+[[/C16-NOCTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | C16-NOCTX | Numerical reasoning | Easy
+==================================================
+Walmart FY2025 cash from operations was $36,443m and capex was $23,783m. Compute free cash flow defined as CFO less capex, USD millions.
+
+
+==================================================
+QUESTION 2/10 | C17-NOCTX | Numerical reasoning | Medium
+==================================================
+Microsoft FY2024 operating cash flow was $118,548m and capital expenditure was $44,477m. Calculate what percentage of operating cash flow remained after capex, to two decimals.
+
+
+==================================================
+QUESTION 3/10 | C18-NOCTX | Numerical reasoning | Hard
+==================================================
+Chevron CFO/capex were $31,492m/$16,448m in FY2024 and $35,609m/$15,829m in FY2023. Compute the percentage DECREASE in simple CFO-minus-capex free cash flow from FY2023 to FY2024, to two decimals.
+
+
+==================================================
+QUESTION 4/10 | C19-NOCTX | Numerical reasoning | Hard
+==================================================
+Hypothetical: CFO begins at $90m, decreases by $12m due to working capital, while annual capex rises from $30m to $42m. Assume no other CFO changes. What is new free cash flow (CFO minus capex), in USD millions?
+
+
+==================================================
+QUESTION 5/10 | C20-NOCTX | Numerical reasoning | Easy
+==================================================
+P&G FY2024 GAAP diluted EPS was $6.02, versus $5.90 in FY2023. Calculate EPS growth in percent, to two decimals.
+
+
+==================================================
+QUESTION 6/10 | C21-NOCTX | Numerical reasoning | Medium
+==================================================
+Hypothetical: a listed firm has 80 million shares at $15 each, $350 million total debt and $120 million excess cash. Ignoring other claims, compute enterprise value in USD millions.
+
+
+==================================================
+QUESTION 7/10 | C22-NOCTX | Numerical reasoning | Hard
+==================================================
+Hypothetical: Firm X has 200 million shares at $9, total debt $700m, cash $200m, minority interest $100m, and EBITDA $400m. Using EV = equity market cap + debt + minority interest − cash, compute EV/EBITDA in times, to two decimals.
+
+
+==================================================
+QUESTION 8/10 | C23-NOCTX | Numerical reasoning | Medium
+==================================================
+Apple FY2024 Services revenue was $96,169m out of total revenue $391,035m; in FY2023 Services were $85,200m out of total $383,285m. By how many percentage points did Services share of revenue rise? Round to two decimals.
+
+
+==================================================
+QUESTION 9/10 | C24-NOCTX | Numerical reasoning | Medium
+==================================================
+NVIDIA gross profit was $97,858m on revenue $130,497m in FY2025, versus $44,301m on $60,922m in FY2024. Calculate the year-over-year change in gross margin in percentage points, to two decimals.
+
+
+==================================================
+QUESTION 10/10 | C25-NOCTX | Numerical reasoning | Hard
+==================================================
+Hypothetical: Firm A revenue rises from $500m to $600m and operating margin falls from 18% to 15%; Firm B revenue rises from $400m to $480m and margin rises from 15% to 18%. What is the difference in NEW operating income A minus B, in USD millions?

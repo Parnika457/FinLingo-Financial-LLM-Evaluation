@@ -1,0 +1,79 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: no_context_04
+Dataset: No added context - 120 question baseline
+Questions in this booklet: 10
+Run IDs: B11-NOCTX, B12-NOCTX, B13-NOCTX, B14-NOCTX, B15-NOCTX, B16-NOCTX, B17-NOCTX, B18-NOCTX, B19-NOCTX, B20-NOCTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[B11-NOCTX]]
+Your complete answer here
+[[/B11-NOCTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | B11-NOCTX | Financial statements | Easy
+==================================================
+How much operating cash flow did Microsoft report for FY2024, in USD billions?
+
+
+==================================================
+QUESTION 2/10 | B12-NOCTX | Financial statements | Medium
+==================================================
+Walmart's FY2025 operating cash flow rose, yet company-defined free cash flow fell from FY2024. Identify the figures and primary arithmetic explanation.
+
+
+==================================================
+QUESTION 3/10 | B13-NOCTX | Financial statements | Medium
+==================================================
+For NVIDIA FY2025, how did net income compare with cash provided by operations, and why are they not interchangeable measures?
+
+
+==================================================
+QUESTION 4/10 | B14-NOCTX | Financial statements | Hard
+==================================================
+Compare Microsoft's FY2024 and FY2023 capital expenditure and operating cash flow. Did the spending rise faster in percentage terms than operating cash flow?
+
+
+==================================================
+QUESTION 5/10 | B15-NOCTX | Financial statements | Hard
+==================================================
+Chevron FY2024 earnings fell from FY2023 and operating cash flow also fell. Does the cash flow statement establish that the earnings change was entirely a noncash accounting effect?
+
+
+==================================================
+QUESTION 6/10 | B16-NOCTX | Financial statements | Easy
+==================================================
+What explanation does AMD's FY2024 annual report give for the strong growth in its Data Center segment?
+
+
+==================================================
+QUESTION 7/10 | B17-NOCTX | Financial statements | Medium
+==================================================
+P&G reported gross-margin expansion in FY2024. Name two favorable drivers and one offset identified by management.
+
+
+==================================================
+QUESTION 8/10 | B18-NOCTX | Financial statements | Medium
+==================================================
+AMD FY2024 Gaming segment revenue contracted even as total company revenue expanded. Contrast the reported segment figures with the consolidated trend and the disclosed driver.
+
+
+==================================================
+QUESTION 9/10 | B19-NOCTX | Financial statements | Hard
+==================================================
+Costco's FY2024 revenue rose compared with FY2023. Why is a simplistic equal-length-year comparison potentially misleading?
+
+
+==================================================
+QUESTION 10/10 | B20-NOCTX | Financial statements | Easy
+==================================================
+In Costco FY2024 reporting, is membership-fee revenue included in reported total revenue, and what are the approximate amounts?

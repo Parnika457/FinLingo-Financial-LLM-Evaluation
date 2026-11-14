@@ -1,0 +1,79 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: no_context_08
+Dataset: No added context - 120 question baseline
+Questions in this booklet: 10
+Run IDs: D01-NOCTX, D02-NOCTX, D03-NOCTX, D04-NOCTX, D05-NOCTX, D06-NOCTX, D07-NOCTX, D08-NOCTX, D09-NOCTX, D10-NOCTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[D01-NOCTX]]
+Your complete answer here
+[[/D01-NOCTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | D01-NOCTX | Company analysis | Easy
+==================================================
+Compare FY2024 operating profit margins for Apple (operating income $123,216m, sales $391,035m) and Microsoft (operating income $109,433m, revenue $245,122m). Which is higher?
+
+
+==================================================
+QUESTION 2/10 | D02-NOCTX | Company analysis | Easy
+==================================================
+Among Coca-Cola FY2024 and P&G FY2024, which had the higher operating margin? Use Coca-Cola operating income $9,992m/revenue $47,061m and P&G operating income $18,545m/revenue $84,039m.
+
+
+==================================================
+QUESTION 3/10 | D03-NOCTX | Company analysis | Medium
+==================================================
+NVIDIA FY2025 gross profit/revenue were $97,858m/$130,497m, while AMD FY2024 were $12,725m/$25,785m. Compare gross margins, then explain why that is not a complete business-quality ranking.
+
+
+==================================================
+QUESTION 4/10 | D04-NOCTX | Company analysis | Medium
+==================================================
+Costco FY2024 net income and total revenue were $7,367m and $254,453m; Walmart FY2025 attributable net income and total revenue were $19,436m and $680,985m. Compare their approximate net margins and state one comparability caution.
+
+
+==================================================
+QUESTION 5/10 | D05-NOCTX | Company analysis | Hard
+==================================================
+Apple and Microsoft both improved operating income between FY2023 and FY2024. Which had stronger operating-income percentage growth, and is that enough to decide which is the better stock?
+
+
+==================================================
+QUESTION 6/10 | D06-NOCTX | Company analysis | Easy
+==================================================
+Using their respective disclosed fiscal years, which had faster reported revenue growth: AMD FY2024 ($25,785m vs $22,680m) or NVIDIA FY2025 ($130,497m vs $60,922m)?
+
+
+==================================================
+QUESTION 7/10 | D07-NOCTX | Company analysis | Easy
+==================================================
+Compare reported revenue growth for Costco FY2024 versus FY2023 ($254,453m/$242,290m) and Walmart FY2025 versus FY2024 ($680,985m/$648,125m). Why might a tiny difference in raw growth rates be overinterpreted?
+
+
+==================================================
+QUESTION 8/10 | D08-NOCTX | Company analysis | Medium
+==================================================
+Compare percentage revenue growth for Coca-Cola FY2024 ($47,061m vs $45,754m) and P&G FY2024 ($84,039m vs $82,006m). Which grew faster in its reported fiscal year?
+
+
+==================================================
+QUESTION 9/10 | D09-NOCTX | Company analysis | Medium
+==================================================
+Microsoft FY2024 revenue rose from $211,915m to $245,122m; Apple FY2024 sales rose from $383,285m to $391,035m. Compare their percentage growth and explain why larger absolute revenue does not imply higher growth.
+
+
+==================================================
+QUESTION 10/10 | D10-NOCTX | Company analysis | Hard
+==================================================
+ExxonMobil FY2024 sales and other operating revenue were $339,247m versus $334,697m in FY2023. Chevron FY2024 used the same headline category: $193,414m versus $196,913m. Compare the percentage growth rates, then give two limits of interpreting this as an investment ranking.

@@ -1,0 +1,276 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: with_context_07
+Dataset: Context-provided - 80 additional cases
+Questions in this booklet: 10
+Run IDs: D21-CTX, D22-CTX, D23-CTX, D24-CTX, D25-CTX, E11-CTX, E12-CTX, E13-CTX, E14-CTX, E15-CTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[D21-CTX]]
+Your complete answer here
+[[/D21-CTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | D21-CTX | Company analysis | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D21
+AAPL • Apple Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-28), FY2023 comparative
+SEC filed: 2024-11-01; accession 0000320193-24-000123
+Relevant section: Consolidated Statements of Operations; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AAPL | FY2024 products revenue: 294866
+AAPL | FY2023 products revenue: 298085
+AAPL | FY2024 services revenue: 96169
+AAPL | FY2023 services revenue: 85200
+AAPL | FY2024 revenue: 391035
+AAPL | FY2023 revenue: 383285
+AAPL | filing note segment: Products revenue declined while Services revenue increased; Services is a revenue category, not a separate audited reportable segment.
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Apple FY2024 Products revenue was $294,866m versus FY2023 $298,085m; Services was $96,169m versus $85,200m. Which business line accounted for the positive overall revenue change?
+
+
+==================================================
+QUESTION 2/10 | D22-CTX | Company analysis | Hard
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D22
+COST • Costco Wholesale Corporation • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-01), FY2023 comparative (53 weeks)
+SEC filed: 2024-10-09; accession 0000909832-24-000049
+Relevant section: Statements of Income; Cash Flows; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm
+
+WMT • Walmart Inc. • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-31), FY2024 comparative
+SEC filed: 2025-03-14; accession 0000104169-25-000021
+Relevant section: Statements of Income; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+COST | FY2024 membership fees: 4828
+COST | FY2024 total revenue: 254453
+COST | FY2024 renewal rate approximately percent: 90
+WMT | FY2025 total revenue: 680985
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Costco FY2024 membership fees were $4,828m of total revenue $254,453m, whereas Walmart FY2025 total revenue was $680,985m. Can total revenue alone tell which retailer has stronger customer loyalty? Explain using Costco's disclosed membership model.
+
+
+==================================================
+QUESTION 3/10 | D23-CTX | Company analysis | Hard
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D23
+NVDA • NVIDIA Corporation • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-26), FY2024 comparative
+SEC filed: 2025-02-26; accession 0001045810-25-000023
+Relevant section: Consolidated Statements of Income; Cash Flows; Item 1A; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm
+
+AMD • Advanced Micro Devices, Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-28), FY2023 comparative
+SEC filed: 2025-02-05; accession 0000002488-25-000012
+Relevant section: Consolidated Financial Statements; Segment Note; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+NVDA | FY2025 revenue: 130497
+NVDA | FY2024 revenue: 60922
+NVDA | filing note risk: Export controls can restrict products and destinations; customer concentration and manufacturing supply constraints can affect results. The top three direct-customer percentages do not reveal their names or the end-customer concentration.
+AMD | FY2024 Data Center revenue USD billions: 12.6
+AMD | FY2023 Data Center revenue USD billions: 6.5
+AMD | FY2024 Gaming revenue USD billions: 2.6
+AMD | FY2023 Gaming revenue USD billions: 6.2
+AMD | filing note risk: Export restrictions, product competition, third-party manufacturing and cyclic demand are material risks.
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: NVIDIA FY2025 revenue rose from $60,922m to $130,497m, while AMD FY2024 Data Center rose from about $6.5bn to $12.6bn even as Gaming fell from about $6.2bn to $2.6bn. Give a balanced comparison of growth concentration and two limits to a "which semiconductor stock is safer" conclusion.
+
+
+==================================================
+QUESTION 4/10 | D24-CTX | Company analysis | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D24
+KO • The Coca-Cola Company • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-31), FY2023 comparative
+SEC filed: 2025-02-20; accession 0000021344-25-000011
+Relevant section: Statements of Income; Balance Sheets; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm
+
+PG • The Procter & Gamble Company • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-08-05; accession 0000080424-24-000083
+Relevant section: Statements of Earnings; Cash Flows; MD&A; Segment Disclosures
+Source: https://www.sec.gov/Archives/edgar/data/80424/000008042424000083/pg-20240630.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+KO | FY2024 revenue: 47061
+KO | FY2023 revenue: 45754
+PG | FY2024 revenue: 84039
+PG | FY2023 revenue: 82006
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: From the disclosed FY2024 revenue figures alone, can we determine whether Coca-Cola or P&G had the higher 12-month total shareholder return after their respective FY2024 closing dates?
+
+
+==================================================
+QUESTION 5/10 | D25-CTX | Company analysis | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | D25
+AAPL • Apple Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-28), FY2023 comparative
+SEC filed: 2024-11-01; accession 0000320193-24-000123
+Relevant section: Consolidated Statements of Operations; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm
+
+MSFT • Microsoft Corporation • FY2024 Annual Report / Form 10-K
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-07-30; accession 0000950170-24-087843
+Relevant section: Financial Statements; Segment Results; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AAPL | FY2024 operating income: 123216
+MSFT | FY2024 operating income: 109433
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Do the FY2024 operating-income figures for Apple and Microsoft alone establish which firm will outperform the other in future risk-adjusted stock returns?
+
+
+==================================================
+QUESTION 6/10 | E11-CTX | Risk and uncertainty | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | E11
+NVDA • NVIDIA Corporation • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-26), FY2024 comparative
+SEC filed: 2025-02-26; accession 0001045810-25-000023
+Relevant section: Consolidated Statements of Income; Cash Flows; Item 1A; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+NVDA | FY2025 revenue: 130497
+NVDA | FY2024 revenue: 60922
+NVDA | filing note risk: Export controls can restrict products and destinations; customer concentration and manufacturing supply constraints can affect results. The top three direct-customer percentages do not reveal their names or the end-customer concentration.
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: NVIDIA FY2025 reported strong growth and also disclosed export-control risk. Explain one mechanism by which tightened export rules could affect future results despite prior growth.
+
+
+==================================================
+QUESTION 7/10 | E12-CTX | Risk and uncertainty | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | E12
+AMD • Advanced Micro Devices, Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-28), FY2023 comparative
+SEC filed: 2025-02-05; accession 0000002488-25-000012
+Relevant section: Consolidated Financial Statements; Segment Note; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AMD | FY2024 Data Center revenue USD billions: 12.6
+AMD | FY2023 Data Center revenue USD billions: 6.5
+AMD | FY2024 Gaming revenue USD billions: 2.6
+AMD | FY2023 Gaming revenue USD billions: 6.2
+AMD | filing note risk: Export restrictions, product competition, third-party manufacturing and cyclic demand are material risks.
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: AMD FY2024 reported growing Data Center revenue and declining Gaming revenue. Name two company-specific uncertainties investors should monitor rather than assuming Data Center growth will continue unchanged.
+
+
+==================================================
+QUESTION 8/10 | E13-CTX | Risk and uncertainty | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | E13
+KO • The Coca-Cola Company • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-31), FY2023 comparative
+SEC filed: 2025-02-20; accession 0000021344-25-000011
+Relevant section: Statements of Income; Balance Sheets; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+KO | FY2024 revenue: 47061
+KO | FY2023 revenue: 45754
+KO | filing note risk: Foreign-currency movements can reduce reported USD results even without identical movements in local-currency demand.
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Coca-Cola reports in US dollars but operates internationally. Why can foreign-exchange fluctuations affect its reported financial performance even if local-currency unit demand stays flat?
+
+
+==================================================
+QUESTION 9/10 | E14-CTX | Risk and uncertainty | Hard
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | E14
+COST • Costco Wholesale Corporation • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-01), FY2023 comparative (53 weeks)
+SEC filed: 2024-10-09; accession 0000909832-24-000049
+Relevant section: Statements of Income; Cash Flows; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+COST | FY2024 renewal rate approximately percent: 90
+COST | FY2024 membership fees: 4828
+COST | filing note risk: Membership renewal and fee income may be affected by competition, economic conditions and perceived customer value.
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Costco FY2024 reported about a 90% membership renewal rate. Explain two risks to relying on this number as proof of future membership-fee revenue stability.
+
+
+==================================================
+QUESTION 10/10 | E15-CTX | Risk and uncertainty | Hard
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | E15
+CVX • Chevron Corporation • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-31), FY2023 comparative
+SEC filed: 2025-02-21; accession 0000093410-25-000009
+Relevant section: Consolidated Financial Statements; Five-Year Summary; MD&A; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/93410/000009341025000009/cvx-20241231.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+CVX | FY2024 operating cash flow: 31492
+CVX | FY2024 capital expenditure: 16448
+CVX | FY2023 operating cash flow: 35609
+CVX | filing note risk: Oil and gas price volatility, project capital intensity, environmental regulation and geopolitical exposures can cause earnings variability.
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Chevron FY2024 revenue and operating cash flow changed from FY2023. Explain how oil-price and large-project execution risk could affect a forecast made solely from FY2024 cash flow.

@@ -1,0 +1,79 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: no_context_10
+Dataset: No added context - 120 question baseline
+Questions in this booklet: 10
+Run IDs: D21-NOCTX, D22-NOCTX, D23-NOCTX, D24-NOCTX, D25-NOCTX, E01-NOCTX, E02-NOCTX, E03-NOCTX, E04-NOCTX, E05-NOCTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[D21-NOCTX]]
+Your complete answer here
+[[/D21-NOCTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | D21-NOCTX | Company analysis | Medium
+==================================================
+Apple FY2024 Products revenue was $294,866m versus FY2023 $298,085m; Services was $96,169m versus $85,200m. Which business line accounted for the positive overall revenue change?
+
+
+==================================================
+QUESTION 2/10 | D22-NOCTX | Company analysis | Hard
+==================================================
+Costco FY2024 membership fees were $4,828m of total revenue $254,453m, whereas Walmart FY2025 total revenue was $680,985m. Can total revenue alone tell which retailer has stronger customer loyalty? Explain using Costco's disclosed membership model.
+
+
+==================================================
+QUESTION 3/10 | D23-NOCTX | Company analysis | Hard
+==================================================
+NVIDIA FY2025 revenue rose from $60,922m to $130,497m, while AMD FY2024 Data Center rose from about $6.5bn to $12.6bn even as Gaming fell from about $6.2bn to $2.6bn. Give a balanced comparison of growth concentration and two limits to a "which semiconductor stock is safer" conclusion.
+
+
+==================================================
+QUESTION 4/10 | D24-NOCTX | Company analysis | Easy
+==================================================
+From the disclosed FY2024 revenue figures alone, can we determine whether Coca-Cola or P&G had the higher 12-month total shareholder return after their respective FY2024 closing dates?
+
+
+==================================================
+QUESTION 5/10 | D25-NOCTX | Company analysis | Medium
+==================================================
+Do the FY2024 operating-income figures for Apple and Microsoft alone establish which firm will outperform the other in future risk-adjusted stock returns?
+
+
+==================================================
+QUESTION 6/10 | E01-NOCTX | Risk and uncertainty | Easy
+==================================================
+A hypothetical $10,000 equity portfolio places $8,000 in a single company. What percentage is concentrated in that name, and what specific risk does it create?
+
+
+==================================================
+QUESTION 7/10 | E02-NOCTX | Risk and uncertainty | Easy
+==================================================
+A retail investor owns stock in five different airlines and says, "Five companies means I am diversified across the whole economy." Is the claim justified?
+
+
+==================================================
+QUESTION 8/10 | E03-NOCTX | Risk and uncertainty | Medium
+==================================================
+A portfolio is 60% in one semiconductor stock and 40% in cash. Explain one risk reduced by the cash and one risk not removed from the invested portion.
+
+
+==================================================
+QUESTION 9/10 | E04-NOCTX | Risk and uncertainty | Medium
+==================================================
+A user owns an AI-chip stock, a semiconductor ETF heavily weighted to that same stock, and an index fund also containing it. What test should they perform before calling the portfolio diversified?
+
+
+==================================================
+QUESTION 10/10 | E05-NOCTX | Risk and uncertainty | Hard
+==================================================
+Two hypothetical portfolios have the same expected annual return, but Portfolio A holds 90% in one volatile issuer whereas B holds dozens of less-correlated issuers. Does B guarantee lower realized losses each year? Why or why not?

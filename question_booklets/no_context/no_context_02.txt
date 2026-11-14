@@ -1,0 +1,79 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: no_context_02
+Dataset: No added context - 120 question baseline
+Questions in this booklet: 10
+Run IDs: A11-NOCTX, A12-NOCTX, A13-NOCTX, A14-NOCTX, A15-NOCTX, A16-NOCTX, A17-NOCTX, A18-NOCTX, A19-NOCTX, A20-NOCTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[A11-NOCTX]]
+Your complete answer here
+[[/A11-NOCTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | A11-NOCTX | Financial knowledge | Hard
+==================================================
+A company reports rising net income for three years but persistently falling operating cash flow. State three checks before treating the growth as high-quality earnings.
+
+
+==================================================
+QUESTION 2/10 | A12-NOCTX | Financial knowledge | Easy
+==================================================
+What is diversification in an investment portfolio?
+
+
+==================================================
+QUESTION 3/10 | A13-NOCTX | Financial knowledge | Medium
+==================================================
+Two portfolios each hold 15 stocks: one only owns semiconductor firms; the other spans unrelated industries. Which is generally more diversified and what risk remains?
+
+
+==================================================
+QUESTION 4/10 | A14-NOCTX | Financial knowledge | Hard
+==================================================
+Why is the statement "A 15-year horizon makes equity losses impossible" incorrect even if longer horizons often allow greater risk capacity?
+
+
+==================================================
+QUESTION 5/10 | A15-NOCTX | Financial knowledge | Easy
+==================================================
+If a company pays a cash dividend, does each shareholder automatically receive a higher total economic value equal to the dividend?
+
+
+==================================================
+QUESTION 6/10 | A16-NOCTX | Financial knowledge | Medium
+==================================================
+Why can a share repurchase increase EPS even if a company's total net income does not grow?
+
+
+==================================================
+QUESTION 7/10 | A17-NOCTX | Financial knowledge | Hard
+==================================================
+A company issues new shares to fund an acquisition. Explain dilution and why the transaction is not necessarily bad for existing investors.
+
+
+==================================================
+QUESTION 8/10 | A18-NOCTX | Financial knowledge | Easy
+==================================================
+Is a stock trading at $5 necessarily cheaper than one trading at $500?
+
+
+==================================================
+QUESTION 9/10 | A19-NOCTX | Financial knowledge | Medium
+==================================================
+A company doubles revenue but its operating margin falls sharply and free cash flow turns negative. Explain why the revenue headline alone is insufficient.
+
+
+==================================================
+QUESTION 10/10 | A20-NOCTX | Financial knowledge | Hard
+==================================================
+A promotional message promises an assured 20% annual return from a diversified stock basket. Identify at least three reasons the claim is unsound.

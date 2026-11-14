@@ -1,0 +1,420 @@
+[
+  {
+    "booklet_id": "pilot_01",
+    "phase": "pilot",
+    "condition": "pilot_no_added_context",
+    "run_ids": [
+      "P-A01-PILOT",
+      "P-A02-PILOT",
+      "P-A03-PILOT",
+      "P-A04-PILOT",
+      "P-B01-PILOT",
+      "P-B02-PILOT",
+      "P-B03-PILOT",
+      "P-B04-PILOT",
+      "P-C01-PILOT",
+      "P-C02-PILOT"
+    ],
+    "pdf": "pilot/pilot_01.pdf",
+    "txt": "pilot/pilot_01.txt"
+  },
+  {
+    "booklet_id": "pilot_02",
+    "phase": "pilot",
+    "condition": "pilot_no_added_context",
+    "run_ids": [
+      "P-C03-PILOT",
+      "P-C04-PILOT",
+      "P-D01-PILOT",
+      "P-D02-PILOT",
+      "P-D03-PILOT",
+      "P-D04-PILOT",
+      "P-E01-PILOT",
+      "P-E02-PILOT",
+      "P-E03-PILOT",
+      "P-E04-PILOT"
+    ],
+    "pdf": "pilot/pilot_02.pdf",
+    "txt": "pilot/pilot_02.txt"
+  },
+  {
+    "booklet_id": "no_context_01",
+    "phase": "final",
+    "condition": "no_added_context",
+    "run_ids": [
+      "A01-NOCTX",
+      "A02-NOCTX",
+      "A03-NOCTX",
+      "A04-NOCTX",
+      "A05-NOCTX",
+      "A06-NOCTX",
+      "A07-NOCTX",
+      "A08-NOCTX",
+      "A09-NOCTX",
+      "A10-NOCTX"
+    ],
+    "pdf": "no_context/no_context_01.pdf",
+    "txt": "no_context/no_context_01.txt"
+  },
+  {
+    "booklet_id": "no_context_02",
+    "phase": "final",
+    "condition": "no_added_context",
+    "run_ids": [
+      "A11-NOCTX",
+      "A12-NOCTX",
+      "A13-NOCTX",
+      "A14-NOCTX",
+      "A15-NOCTX",
+      "A16-NOCTX",
+      "A17-NOCTX",
+      "A18-NOCTX",
+      "A19-NOCTX",
+      "A20-NOCTX"
+    ],
+    "pdf": "no_context/no_context_02.pdf",
+    "txt": "no_context/no_context_02.txt"
+  },
+  {
+    "booklet_id": "no_context_03",
+    "phase": "final",
+    "condition": "no_added_context",
+    "run_ids": [
+      "B01-NOCTX",
+      "B02-NOCTX",
+      "B03-NOCTX",
+      "B04-NOCTX",
+      "B05-NOCTX",
+      "B06-NOCTX",
+      "B07-NOCTX",
+      "B08-NOCTX",
+      "B09-NOCTX",
+      "B10-NOCTX"
+    ],
+    "pdf": "no_context/no_context_03.pdf",
+    "txt": "no_context/no_context_03.txt"
+  },
+  {
+    "booklet_id": "no_context_04",
+    "phase": "final",
+    "condition": "no_added_context",
+    "run_ids": [
+      "B11-NOCTX",
+      "B12-NOCTX",
+      "B13-NOCTX",
+      "B14-NOCTX",
+      "B15-NOCTX",
+      "B16-NOCTX",
+      "B17-NOCTX",
+      "B18-NOCTX",
+      "B19-NOCTX",
+      "B20-NOCTX"
+    ],
+    "pdf": "no_context/no_context_04.pdf",
+    "txt": "no_context/no_context_04.txt"
+  },
+  {
+    "booklet_id": "no_context_05",
+    "phase": "final",
+    "condition": "no_added_context",
+    "run_ids": [
+      "B21-NOCTX",
+      "B22-NOCTX",
+      "B23-NOCTX",
+      "B24-NOCTX",
+      "B25-NOCTX",
+      "C01-NOCTX",
+      "C02-NOCTX",
+      "C03-NOCTX",
+      "C04-NOCTX",
+      "C05-NOCTX"
+    ],
+    "pdf": "no_context/no_context_05.pdf",
+    "txt": "no_context/no_context_05.txt"
+  },
+  {
+    "booklet_id": "no_context_06",
+    "phase": "final",
+    "condition": "no_added_context",
+    "run_ids": [
+      "C06-NOCTX",
+      "C07-NOCTX",
+      "C08-NOCTX",
+      "C09-NOCTX",
+      "C10-NOCTX",
+      "C11-NOCTX",
+      "C12-NOCTX",
+      "C13-NOCTX",
+      "C14-NOCTX",
+      "C15-NOCTX"
+    ],
+    "pdf": "no_context/no_context_06.pdf",
+    "txt": "no_context/no_context_06.txt"
+  },
+  {
+    "booklet_id": "no_context_07",
+    "phase": "final",
+    "condition": "no_added_context",
+    "run_ids": [
+      "C16-NOCTX",
+      "C17-NOCTX",
+      "C18-NOCTX",
+      "C19-NOCTX",
+      "C20-NOCTX",
+      "C21-NOCTX",
+      "C22-NOCTX",
+      "C23-NOCTX",
+      "C24-NOCTX",
+      "C25-NOCTX"
+    ],
+    "pdf": "no_context/no_context_07.pdf",
+    "txt": "no_context/no_context_07.txt"
+  },
+  {
+    "booklet_id": "no_context_08",
+    "phase": "final",
+    "condition": "no_added_context",
+    "run_ids": [
+      "D01-NOCTX",
+      "D02-NOCTX",
+      "D03-NOCTX",
+      "D04-NOCTX",
+      "D05-NOCTX",
+      "D06-NOCTX",
+      "D07-NOCTX",
+      "D08-NOCTX",
+      "D09-NOCTX",
+      "D10-NOCTX"
+    ],
+    "pdf": "no_context/no_context_08.pdf",
+    "txt": "no_context/no_context_08.txt"
+  },
+  {
+    "booklet_id": "no_context_09",
+    "phase": "final",
+    "condition": "no_added_context",
+    "run_ids": [
+      "D11-NOCTX",
+      "D12-NOCTX",
+      "D13-NOCTX",
+      "D14-NOCTX",
+      "D15-NOCTX",
+      "D16-NOCTX",
+      "D17-NOCTX",
+      "D18-NOCTX",
+      "D19-NOCTX",
+      "D20-NOCTX"
+    ],
+    "pdf": "no_context/no_context_09.pdf",
+    "txt": "no_context/no_context_09.txt"
+  },
+  {
+    "booklet_id": "no_context_10",
+    "phase": "final",
+    "condition": "no_added_context",
+    "run_ids": [
+      "D21-NOCTX",
+      "D22-NOCTX",
+      "D23-NOCTX",
+      "D24-NOCTX",
+      "D25-NOCTX",
+      "E01-NOCTX",
+      "E02-NOCTX",
+      "E03-NOCTX",
+      "E04-NOCTX",
+      "E05-NOCTX"
+    ],
+    "pdf": "no_context/no_context_10.pdf",
+    "txt": "no_context/no_context_10.txt"
+  },
+  {
+    "booklet_id": "no_context_11",
+    "phase": "final",
+    "condition": "no_added_context",
+    "run_ids": [
+      "E06-NOCTX",
+      "E07-NOCTX",
+      "E08-NOCTX",
+      "E09-NOCTX",
+      "E10-NOCTX",
+      "E11-NOCTX",
+      "E12-NOCTX",
+      "E13-NOCTX",
+      "E14-NOCTX",
+      "E15-NOCTX"
+    ],
+    "pdf": "no_context/no_context_11.pdf",
+    "txt": "no_context/no_context_11.txt"
+  },
+  {
+    "booklet_id": "no_context_12",
+    "phase": "final",
+    "condition": "no_added_context",
+    "run_ids": [
+      "E16-NOCTX",
+      "E17-NOCTX",
+      "E18-NOCTX",
+      "E19-NOCTX",
+      "E20-NOCTX",
+      "E21-NOCTX",
+      "E22-NOCTX",
+      "E23-NOCTX",
+      "E24-NOCTX",
+      "E25-NOCTX"
+    ],
+    "pdf": "no_context/no_context_12.pdf",
+    "txt": "no_context/no_context_12.txt"
+  },
+  {
+    "booklet_id": "with_context_01",
+    "phase": "final",
+    "condition": "verified_context",
+    "run_ids": [
+      "B01-CTX",
+      "B02-CTX",
+      "B03-CTX",
+      "B04-CTX",
+      "B05-CTX",
+      "B06-CTX",
+      "B07-CTX",
+      "B08-CTX",
+      "B09-CTX",
+      "B10-CTX"
+    ],
+    "pdf": "with_context/with_context_01.pdf",
+    "txt": "with_context/with_context_01.txt"
+  },
+  {
+    "booklet_id": "with_context_02",
+    "phase": "final",
+    "condition": "verified_context",
+    "run_ids": [
+      "B11-CTX",
+      "B12-CTX",
+      "B13-CTX",
+      "B14-CTX",
+      "B15-CTX",
+      "B16-CTX",
+      "B17-CTX",
+      "B18-CTX",
+      "B19-CTX",
+      "B20-CTX"
+    ],
+    "pdf": "with_context/with_context_02.pdf",
+    "txt": "with_context/with_context_02.txt"
+  },
+  {
+    "booklet_id": "with_context_03",
+    "phase": "final",
+    "condition": "verified_context",
+    "run_ids": [
+      "B21-CTX",
+      "B22-CTX",
+      "B23-CTX",
+      "B24-CTX",
+      "B25-CTX",
+      "C01-CTX",
+      "C02-CTX",
+      "C03-CTX",
+      "C06-CTX",
+      "C07-CTX"
+    ],
+    "pdf": "with_context/with_context_03.pdf",
+    "txt": "with_context/with_context_03.txt"
+  },
+  {
+    "booklet_id": "with_context_04",
+    "phase": "final",
+    "condition": "verified_context",
+    "run_ids": [
+      "C08-CTX",
+      "C11-CTX",
+      "C12-CTX",
+      "C13-CTX",
+      "C16-CTX",
+      "C17-CTX",
+      "C18-CTX",
+      "C20-CTX",
+      "C23-CTX",
+      "C24-CTX"
+    ],
+    "pdf": "with_context/with_context_04.pdf",
+    "txt": "with_context/with_context_04.txt"
+  },
+  {
+    "booklet_id": "with_context_05",
+    "phase": "final",
+    "condition": "verified_context",
+    "run_ids": [
+      "D01-CTX",
+      "D02-CTX",
+      "D03-CTX",
+      "D04-CTX",
+      "D05-CTX",
+      "D06-CTX",
+      "D07-CTX",
+      "D08-CTX",
+      "D09-CTX",
+      "D10-CTX"
+    ],
+    "pdf": "with_context/with_context_05.pdf",
+    "txt": "with_context/with_context_05.txt"
+  },
+  {
+    "booklet_id": "with_context_06",
+    "phase": "final",
+    "condition": "verified_context",
+    "run_ids": [
+      "D11-CTX",
+      "D12-CTX",
+      "D13-CTX",
+      "D14-CTX",
+      "D15-CTX",
+      "D16-CTX",
+      "D17-CTX",
+      "D18-CTX",
+      "D19-CTX",
+      "D20-CTX"
+    ],
+    "pdf": "with_context/with_context_06.pdf",
+    "txt": "with_context/with_context_06.txt"
+  },
+  {
+    "booklet_id": "with_context_07",
+    "phase": "final",
+    "condition": "verified_context",
+    "run_ids": [
+      "D21-CTX",
+      "D22-CTX",
+      "D23-CTX",
+      "D24-CTX",
+      "D25-CTX",
+      "E11-CTX",
+      "E12-CTX",
+      "E13-CTX",
+      "E14-CTX",
+      "E15-CTX"
+    ],
+    "pdf": "with_context/with_context_07.pdf",
+    "txt": "with_context/with_context_07.txt"
+  },
+  {
+    "booklet_id": "with_context_08",
+    "phase": "final",
+    "condition": "verified_context",
+    "run_ids": [
+      "E16-CTX",
+      "E17-CTX",
+      "E18-CTX",
+      "E19-CTX",
+      "E20-CTX",
+      "E21-CTX",
+      "E22-CTX",
+      "E23-CTX",
+      "E24-CTX",
+      "E25-CTX"
+    ],
+    "pdf": "with_context/with_context_08.pdf",
+    "txt": "with_context/with_context_08.txt"
+  }
+]

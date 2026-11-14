@@ -1,0 +1,79 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: no_context_01
+Dataset: No added context - 120 question baseline
+Questions in this booklet: 10
+Run IDs: A01-NOCTX, A02-NOCTX, A03-NOCTX, A04-NOCTX, A05-NOCTX, A06-NOCTX, A07-NOCTX, A08-NOCTX, A09-NOCTX, A10-NOCTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[A01-NOCTX]]
+Your complete answer here
+[[/A01-NOCTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | A01-NOCTX | Financial knowledge | Easy
+==================================================
+How does owning a common share differ from holding a corporate bond issued by the same company?
+
+
+==================================================
+QUESTION 2/10 | A02-NOCTX | Financial knowledge | Medium
+==================================================
+A fixed-coupon bond was issued at par. If prevailing yields for comparable new bonds rise, what normally happens to its market price, and why?
+
+
+==================================================
+QUESTION 3/10 | A03-NOCTX | Financial knowledge | Hard
+==================================================
+An investor says, "An investment-grade corporate bond guarantees I can sell at face value tomorrow, and its credit risk is zero." Identify both errors.
+
+
+==================================================
+QUESTION 4/10 | A04-NOCTX | Financial knowledge | Easy
+==================================================
+What is market capitalization, and what two inputs are needed to calculate it?
+
+
+==================================================
+QUESTION 5/10 | A05-NOCTX | Financial knowledge | Medium
+==================================================
+Why does enterprise value usually add debt and subtract cash from equity market capitalization?
+
+
+==================================================
+QUESTION 6/10 | A06-NOCTX | Financial knowledge | Medium
+==================================================
+Company X has a lower P/E than Company Y. Give two reasons the lower multiple does not automatically mean X is cheaper on a risk-adjusted basis.
+
+
+==================================================
+QUESTION 7/10 | A07-NOCTX | Financial knowledge | Hard
+==================================================
+A loss-making high-growth firm has negative EBITDA while a mature firm has positive EBITDA. Explain why ranking both solely by EV/EBITDA is misleading and propose two additional checks.
+
+
+==================================================
+QUESTION 8/10 | A08-NOCTX | Financial knowledge | Easy
+==================================================
+Can a profitable company still report negative cash flow from operations for a period? Answer yes or no and explain briefly.
+
+
+==================================================
+QUESTION 9/10 | A09-NOCTX | Financial knowledge | Medium
+==================================================
+A business records $10 million of credit sales in December but receives the cash in January. How do December revenue and December operating cash receipts differ, assuming revenue-recognition conditions are satisfied?
+
+
+==================================================
+QUESTION 10/10 | A10-NOCTX | Financial knowledge | Medium
+==================================================
+A company buys equipment for $20 million in cash and depreciates it over several years. Why is the entire purchase not normally an immediate expense in the income statement?

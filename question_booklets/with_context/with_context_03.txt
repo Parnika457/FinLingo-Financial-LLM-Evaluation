@@ -1,0 +1,239 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: with_context_03
+Dataset: Context-provided - 80 additional cases
+Questions in this booklet: 10
+Run IDs: B21-CTX, B22-CTX, B23-CTX, B24-CTX, B25-CTX, C01-CTX, C02-CTX, C03-CTX, C06-CTX, C07-CTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[B21-CTX]]
+Your complete answer here
+[[/B21-CTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | B21-CTX | Financial statements | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B21
+PG • The Procter & Gamble Company • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-08-05; accession 0000080424-24-000083
+Relevant section: Statements of Earnings; Cash Flows; MD&A; Segment Disclosures
+Source: https://www.sec.gov/Archives/edgar/data/80424/000008042424000083/pg-20240630.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+PG | FY2024 diluted EPS USD: 6.02
+PG | FY2024 core EPS USD non-GAAP: 6.59
+PG | FY2024 Gillette noncash impairment USD billions pretax: 1.3
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Explain why P&G's FY2024 core EPS should not be treated as interchangeable with GAAP diluted EPS. State both reported values.
+
+
+==================================================
+QUESTION 2/10 | B22-CTX | Financial statements | Hard
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B22
+NVDA • NVIDIA Corporation • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-26), FY2024 comparative
+SEC filed: 2025-02-26; accession 0001045810-25-000023
+Relevant section: Consolidated Statements of Income; Cash Flows; Item 1A; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+NVDA | FY2025 top direct customer 1 share percent: 12
+NVDA | FY2025 top direct customer 2 share percent: 11
+NVDA | FY2025 top direct customer 3 share percent: 11
+NVDA | filing note risk: Export controls can restrict products and destinations; customer concentration and manufacturing supply constraints can affect results. The top three direct-customer percentages do not reveal their names or the end-customer concentration.
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: NVIDIA disclosed its three largest direct customers individually represented 12%, 11%, and 11% of FY2025 revenue. What concentration can be established and what cannot be inferred?
+
+
+==================================================
+QUESTION 3/10 | B23-CTX | Financial statements | Hard
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B23
+COST • Costco Wholesale Corporation • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-01), FY2023 comparative (53 weeks)
+SEC filed: 2024-10-09; accession 0000909832-24-000049
+Relevant section: Statements of Income; Cash Flows; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+COST | FY2024 membership fees: 4828
+COST | FY2024 net sales: 249625
+COST | FY2024 total revenue: 254453
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Do Costco's FY2024 figures for membership-fee revenue, net sales and total revenue establish the exact net profit attributable exclusively to membership fees after allocating companywide expenses?
+
+
+==================================================
+QUESTION 4/10 | B24-CTX | Financial statements | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B24
+WMT • Walmart Inc. • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-31), FY2024 comparative
+SEC filed: 2025-03-14; accession 0000104169-25-000021
+Relevant section: Statements of Income; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm
+
+MSFT • Microsoft Corporation • FY2024 Annual Report / Form 10-K
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-07-30; accession 0000950170-24-087843
+Relevant section: Financial Statements; Segment Results; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+WMT | FY2025 total revenue: 680985
+MSFT | FY2024 revenue: 245122
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Which company's annual period ended later: Walmart FY2025 or Microsoft FY2024? State both year-end dates and why labeling both simply "2024" could mislead.
+
+
+==================================================
+QUESTION 5/10 | B25-CTX | Financial statements | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B25
+AAPL • Apple Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-28), FY2023 comparative
+SEC filed: 2024-11-01; accession 0000320193-24-000123
+Relevant section: Consolidated Statements of Operations; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AAPL | FY2024 assets: 364980
+AAPL | FY2024 shareholders equity: 56950
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Does Apple's FY2024 balance sheet total assets and shareholders' equity reveal the company's exact stock-market capitalization at the FY2024 year-end?
+
+
+==================================================
+QUESTION 6/10 | C01-CTX | Numerical reasoning | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | C01
+AAPL • Apple Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-28), FY2023 comparative
+SEC filed: 2024-11-01; accession 0000320193-24-000123
+Relevant section: Consolidated Statements of Operations; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AAPL | FY2024 revenue: 391035
+AAPL | FY2023 revenue: 383285
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Apple reported FY2024 net sales of $391,035 million versus $383,285 million in FY2023. Calculate year-over-year revenue growth as a percentage, to two decimals.
+
+
+==================================================
+QUESTION 7/10 | C02-CTX | Numerical reasoning | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | C02
+NVDA • NVIDIA Corporation • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-26), FY2024 comparative
+SEC filed: 2025-02-26; accession 0001045810-25-000023
+Relevant section: Consolidated Statements of Income; Cash Flows; Item 1A; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+NVDA | FY2025 revenue: 130497
+NVDA | FY2024 revenue: 60922
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: NVIDIA reported FY2025 revenue of $130,497 million and FY2024 revenue of $60,922 million. What is the year-over-year revenue growth rate, to two decimal places?
+
+
+==================================================
+QUESTION 8/10 | C03-CTX | Numerical reasoning | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | C03
+WMT • Walmart Inc. • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-31), FY2024 comparative
+SEC filed: 2025-03-14; accession 0000104169-25-000021
+Relevant section: Statements of Income; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+WMT | FY2025 total revenue: 680985
+WMT | FY2024 total revenue: 648125
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Walmart FY2025 total revenue was $680,985 million versus $648,125 million in FY2024. Compute the absolute increase in total revenue in USD billions, to three decimals.
+
+
+==================================================
+QUESTION 9/10 | C06-CTX | Numerical reasoning | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | C06
+KO • The Coca-Cola Company • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-31), FY2023 comparative
+SEC filed: 2025-02-20; accession 0000021344-25-000011
+Relevant section: Statements of Income; Balance Sheets; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+KO | FY2024 gross profit: 28737
+KO | FY2024 revenue: 47061
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Coca-Cola reported FY2024 gross profit of $28,737 million and net operating revenue of $47,061 million. Calculate gross profit margin, to two decimals.
+
+
+==================================================
+QUESTION 10/10 | C07-CTX | Numerical reasoning | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | C07
+AMD • Advanced Micro Devices, Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-28), FY2023 comparative
+SEC filed: 2025-02-05; accession 0000002488-25-000012
+Relevant section: Consolidated Financial Statements; Segment Note; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AMD | FY2024 operating income: 1900
+AMD | FY2024 revenue: 25785
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: AMD FY2024 operating income was $1,900 million on revenue of $25,785 million. Compute operating margin, to two decimals.

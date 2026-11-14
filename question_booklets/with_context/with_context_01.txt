@@ -1,0 +1,243 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: with_context_01
+Dataset: Context-provided - 80 additional cases
+Questions in this booklet: 10
+Run IDs: B01-CTX, B02-CTX, B03-CTX, B04-CTX, B05-CTX, B06-CTX, B07-CTX, B08-CTX, B09-CTX, B10-CTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[B01-CTX]]
+Your complete answer here
+[[/B01-CTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | B01-CTX | Financial statements | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B01
+AAPL • Apple Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-28), FY2023 comparative
+SEC filed: 2024-11-01; accession 0000320193-24-000123
+Relevant section: Consolidated Statements of Operations; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AAPL | FY2024 revenue: 391035
+AAPL | FY2023 revenue: 383285
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: In Apple's FY2024 10-K, what were total net sales in FY2024, expressed in USD billions?
+
+
+==================================================
+QUESTION 2/10 | B02-CTX | Financial statements | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B02
+MSFT • Microsoft Corporation • FY2024 Annual Report / Form 10-K
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-07-30; accession 0000950170-24-087843
+Relevant section: Financial Statements; Segment Results; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+MSFT | FY2024 operating income: 109433
+MSFT | FY2024 net income: 88136
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: What was Microsoft's FY2024 operating income, in USD billions, according to its annual report?
+
+
+==================================================
+QUESTION 3/10 | B03-CTX | Financial statements | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B03
+KO • The Coca-Cola Company • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-31), FY2023 comparative
+SEC filed: 2025-02-20; accession 0000021344-25-000011
+Relevant section: Statements of Income; Balance Sheets; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+KO | FY2024 revenue: 47061
+KO | FY2023 revenue: 45754
+KO | FY2024 operating income: 9992
+KO | FY2023 operating income: 11311
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Coca-Cola FY2024 revenue rose while operating income fell versus FY2023. Which figures show this and what can safely be concluded?
+
+
+==================================================
+QUESTION 4/10 | B04-CTX | Financial statements | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B04
+AAPL • Apple Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-28), FY2023 comparative
+SEC filed: 2024-11-01; accession 0000320193-24-000123
+Relevant section: Consolidated Statements of Operations; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AAPL | FY2024 products revenue: 294866
+AAPL | FY2023 products revenue: 298085
+AAPL | FY2024 services revenue: 96169
+AAPL | FY2023 services revenue: 85200
+AAPL | FY2024 revenue: 391035
+AAPL | FY2023 revenue: 383285
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Apple's products revenue fell but services revenue rose in FY2024. Explain the direction and scale of each change using the FY2024 and FY2023 figures.
+
+
+==================================================
+QUESTION 5/10 | B05-CTX | Financial statements | Hard
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B05
+NVDA • NVIDIA Corporation • Form 10-K FY2025
+Reported period: FY2025 (ended 2025-01-26), FY2024 comparative
+SEC filed: 2025-02-26; accession 0001045810-25-000023
+Relevant section: Consolidated Statements of Income; Cash Flows; Item 1A; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+NVDA | FY2025 revenue: 130497
+NVDA | FY2024 revenue: 60922
+NVDA | FY2025 net income: 72880
+NVDA | FY2024 net income: 29760
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: NVIDIA's FY2025 revenue and net income both rose compared with FY2024. Does that establish that its net profit margin increased? Use the reported values to justify.
+
+
+==================================================
+QUESTION 6/10 | B06-CTX | Financial statements | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B06
+AMD • Advanced Micro Devices, Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-28), FY2023 comparative
+SEC filed: 2025-02-05; accession 0000002488-25-000012
+Relevant section: Consolidated Financial Statements; Segment Note; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AMD | FY2024 current assets: 19049
+AMD | FY2024 current liabilities: 7281
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: What were AMD's FY2024 current assets and current liabilities, in USD millions?
+
+
+==================================================
+QUESTION 7/10 | B07-CTX | Financial statements | Easy
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B07
+AAPL • Apple Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-09-28), FY2023 comparative
+SEC filed: 2024-11-01; accession 0000320193-24-000123
+Relevant section: Consolidated Statements of Operations; Balance Sheets; Cash Flows; MD&A
+Source: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AAPL | FY2024 shareholders equity: 56950
+AAPL | FY2024 assets: 364980
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Was Apple's FY2024 reported total shareholders' equity positive or negative, and approximately how large?
+
+
+==================================================
+QUESTION 8/10 | B08-CTX | Financial statements | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B08
+MSFT • Microsoft Corporation • FY2024 Annual Report / Form 10-K
+Reported period: FY2024 (ended 2024-06-30), FY2023 comparative
+SEC filed: 2024-07-30; accession 0000950170-24-087843
+Relevant section: Financial Statements; Segment Results; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+MSFT | FY2024 current assets: 159734
+MSFT | FY2023 current assets: 184257
+MSFT | FY2024 current liabilities: 125286
+MSFT | FY2023 current liabilities: 104149
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Microsoft's current assets fell between FY2023 and FY2024 while current liabilities rose. Identify both changes and what happened to the current ratio.
+
+
+==================================================
+QUESTION 9/10 | B09-CTX | Financial statements | Medium
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B09
+AMD • Advanced Micro Devices, Inc. • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-28), FY2023 comparative
+SEC filed: 2025-02-05; accession 0000002488-25-000012
+Relevant section: Consolidated Financial Statements; Segment Note; MD&A; Risk Factors
+Source: https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+AMD | FY2024 inventory: 5734
+AMD | FY2023 inventory: 4351
+AMD | FY2024 revenue: 25785
+AMD | FY2023 revenue: 22680
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: AMD's inventory rose between FY2023 and FY2024. What were the reported balances, and why does that fact alone not establish obsolete inventory?
+
+
+==================================================
+QUESTION 10/10 | B10-CTX | Financial statements | Hard
+==================================================
+Evidence packet:
+FinLingo official-evidence packet v1.0 | B10
+CVX • Chevron Corporation • Form 10-K FY2024
+Reported period: FY2024 (ended 2024-12-31), FY2023 comparative
+SEC filed: 2025-02-21; accession 0000093410-25-000009
+Relevant section: Consolidated Financial Statements; Five-Year Summary; MD&A; Item 1A
+Source: https://www.sec.gov/Archives/edgar/data/93410/000009341025000009/cvx-20241231.htm
+
+Selected values and/or paraphrased disclosures (USD millions unless a row explicitly says USD billions, percent, or EPS):
+CVX | FY2024 current assets: 40911
+CVX | FY2023 current assets: 41128
+CVX | FY2024 current liabilities: 38558
+CVX | FY2023 current liabilities: 32258
+
+This is a fixed, selectively reproduced historical source extract. It includes only the listed figures and disclosures; do not assume that any unlisted metric, market quote, investor preference or future outcome is supplied. Fiscal-year labels may cover different calendar periods.
+Source cutoff: 2026-10-31.
+
+Question: Chevron's FY2024 current ratio was lower than FY2023. Using the disclosed current assets and liabilities, explain the direction and two possible implications without declaring insolvency.

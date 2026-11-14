@@ -1,0 +1,79 @@
+FINLINGO MANUAL LLM EVALUATION
+
+Booklet: no_context_03
+Dataset: No added context - 120 question baseline
+Questions in this booklet: 10
+Run IDs: B01-NOCTX, B02-NOCTX, B03-NOCTX, B04-NOCTX, B05-NOCTX, B06-NOCTX, B07-NOCTX, B08-NOCTX, B09-NOCTX, B10-NOCTX
+
+EVALUATION INSTRUCTIONS - apply to every question below:
+You are a financial research assistant. Answer the user question accurately and concisely. Show formulas and units for numerical answers. If the available information cannot support a definitive answer, state what is missing or uncertain and do not invent facts. Do not browse the web or call external tools. This is a historical financial-information evaluation, not a request for individualized investment advice.
+
+Respond to ALL questions, in the order shown. Use the exact paired markers, one pair around each answer. Do not include an introduction or summary. Keep each ID unchanged. Example:
+
+[[B01-NOCTX]]
+Your complete answer here
+[[/B01-NOCTX]]
+
+Do not include model-generated ratings or evaluation reference answers. If an answer cannot be determined from the given information, explain what is missing.
+
+Question pages follow.
+
+
+==================================================
+QUESTION 1/10 | B01-NOCTX | Financial statements | Easy
+==================================================
+In Apple's FY2024 10-K, what were total net sales in FY2024, expressed in USD billions?
+
+
+==================================================
+QUESTION 2/10 | B02-NOCTX | Financial statements | Easy
+==================================================
+What was Microsoft's FY2024 operating income, in USD billions, according to its annual report?
+
+
+==================================================
+QUESTION 3/10 | B03-NOCTX | Financial statements | Medium
+==================================================
+Coca-Cola FY2024 revenue rose while operating income fell versus FY2023. Which figures show this and what can safely be concluded?
+
+
+==================================================
+QUESTION 4/10 | B04-NOCTX | Financial statements | Medium
+==================================================
+Apple's products revenue fell but services revenue rose in FY2024. Explain the direction and scale of each change using the FY2024 and FY2023 figures.
+
+
+==================================================
+QUESTION 5/10 | B05-NOCTX | Financial statements | Hard
+==================================================
+NVIDIA's FY2025 revenue and net income both rose compared with FY2024. Does that establish that its net profit margin increased? Use the reported values to justify.
+
+
+==================================================
+QUESTION 6/10 | B06-NOCTX | Financial statements | Easy
+==================================================
+What were AMD's FY2024 current assets and current liabilities, in USD millions?
+
+
+==================================================
+QUESTION 7/10 | B07-NOCTX | Financial statements | Easy
+==================================================
+Was Apple's FY2024 reported total shareholders' equity positive or negative, and approximately how large?
+
+
+==================================================
+QUESTION 8/10 | B08-NOCTX | Financial statements | Medium
+==================================================
+Microsoft's current assets fell between FY2023 and FY2024 while current liabilities rose. Identify both changes and what happened to the current ratio.
+
+
+==================================================
+QUESTION 9/10 | B09-NOCTX | Financial statements | Medium
+==================================================
+AMD's inventory rose between FY2023 and FY2024. What were the reported balances, and why does that fact alone not establish obsolete inventory?
+
+
+==================================================
+QUESTION 10/10 | B10-NOCTX | Financial statements | Hard
+==================================================
+Chevron's FY2024 current ratio was lower than FY2023. Using the disclosed current assets and liabilities, explain the direction and two possible implications without declaring insolvency.
